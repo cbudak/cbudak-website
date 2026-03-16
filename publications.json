@@ -1,5 +1,165 @@
 [
   {
+    "title": "How AI ideas affect the creativity, diversity, and evolution of human ideas: evidence from a large, dynamic experiment",
+    "authors": "Joshua Ashkinaze and Julia Mendelsohn and Li Qiwei and Ceren Budak and Eric Gilbert",
+    "venue": "",
+    "year": "2025",
+    "abstract": "Exposure to large language model output is rapidly increasing. How will seeing AI-generated ideas affect human ideas? We conducted a dynamic experiment (800+ participants, 40+ countries) where participants viewed creative ideas that were from ChatGPT or prior experimental participants, and then brainstormed their own idea. We varied the number of AI-generated examples (none, low, or high exposure) and if the examples were labeled as “AI” (disclosure). We find that high AI exposure (but not low AI exposure) did not affect the creativity of individual ideas but did increase the average amount and rate of change of collective idea diversity. AI made ideas different, not better. There were no main effects of disclosure. We also found that self-reported creative people were less influenced by knowing an idea was from AI and that participants may knowingly adopt AI ideas when the task is difficult. Our findings …",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3715928.3737481",
+    "eprint_url": "",
+    "citations": 45
+  },
+  {
+    "title": "Plurals: A system for guiding llms via simulated social ensembles",
+    "authors": "Joshua Ashkinaze and Emily Fry and Narendra Edara and Eric Gilbert and Ceren Budak",
+    "venue": "",
+    "year": "2025",
+    "abstract": "Recent debates raised concerns that language models may favor certain viewpoints. But what if the solution is not to aim for a “view from nowhere” but rather to leverage different viewpoints? We introduce Plurals, a system and Python library for pluralistic AI deliberation. Plurals consists of Agents (LLMs, optionally with personas) which deliberate within customizable Structures, with Moderators overseeing deliberation. Plurals is a generator of simulated social ensembles. Plurals integrates with government datasets to create nationally representative personas, includes deliberation templates inspired by deliberative democracy, and allows users to customize both information-sharing structures and deliberation behavior within Structures. Six case studies demonstrate fidelity to theoretical constructs and efficacy. Three randomized experiments show simulated focus groups produced output resonant with an online …",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3706598.3713675",
+    "eprint_url": "",
+    "citations": 23
+  },
+  {
+    "title": "Wikipedia in wartime: experiences of Wikipedians maintaining articles about the Russia-Ukraine war",
+    "authors": "Laura Kurek and Ceren Budak and Eric Gilbert",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction",
+    "year": "2025",
+    "abstract": "How do Wikipedians maintain an accurate encyclopedia during an ongoing geopolitical conflict where state actors might seek to spread disinformation or conduct an information operation? In the context of the Russia-Ukraine War, this question becomes more pressing, given the Russian government's extensive history of orchestrating information campaigns. We conducted an interview study with 13 expert Wikipedians involved in the Russo-Ukrainian War topic area on the English-language edition of Wikipedia. While our participants did not perceive there to be clear evidence of a state-backed information operation, they agreed that war-related articles experienced high levels of disruptive editing from both Russia-aligned and Ukraine-aligned accounts. The English-language edition of Wikipedia had existing policies and processes at its disposal to counter such disruption. State-backed or not, the disruptive activity …",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3711107",
+    "eprint_url": "",
+    "citations": 8
+  },
+  {
+    "title": "When people are floods: Analyzing dehumanizing metaphors in immigration discourse with large language models",
+    "authors": "Julia Mendelsohn and Ceren Budak",
+    "venue": "",
+    "year": "2025",
+    "abstract": "Metaphor, discussing one concept in terms of another, is abundant in politics and can shape how people understand important issues. We develop a computational approach to measure metaphorical language, focusing on immigration discourse on social media. Grounded in qualitative social science research, we identify seven concepts evoked in immigration discourse (eg water or vermin). We propose and evaluate a novel technique that leverages both word-level and document-level signals to measure metaphor with respect to these concepts. We then study the relationship between metaphor, political ideology, and user engagement in 400K US tweets about immigration. While conservatives tend to use dehumanizing metaphors more than liberals, this effect varies widely across concepts. Moreover, creature-related metaphor is associated with more retweets, especially for liberal authors. Our work highlights the potential for computational methods to complement qualitative approaches in understanding subtle and implicit language in political discourse.",
+    "url": "https://aclanthology.org/2025.acl-long.398/",
+    "eprint_url": "",
+    "citations": 3
+  },
+  {
+    "title": "Follow Nudges without Budges: A Field Experiment on Misinformation Followers Didn't Change Follow Networks",
+    "authors": "Laura Kurek and Joshua Ashkinaze and Ceren Budak and Eric Gilbert",
+    "venue": "arXiv preprint arXiv:2512.13643",
+    "year": "2025",
+    "abstract": "Can digital ads encourage users exposed to inaccurate information sources to follow accurate ones? We conduct a large-scale field experiment (N=28,582) on X, formerly Twitter, with users who follow accounts that spread health misinformation. Participants were exposed to four ad treatments varied on two dimensions: a neutral message versus a persuasive message appealing to values of independence, and a request to follow a health institution versus a request to follow a health influencer. We term this ad-based, social network intervention a follow nudge. The ad with a persuasive message to follow a well-known health institution generated significantly higher click-through rates than all other conditions (Bonferroni-corrected pairwise tests, all p<0.001). Given the overall low click-through rate across treatments and the high cost of digital advertising infrastructure on X, however, we conclude that our proposed intervention -- at least in its current ad-based format -- is not a cost-effective means to improve information environments online. We discuss challenges faced when conducting large-scale experiments on X following the platform's ownership change and subsequent restrictions on data access for research purposes.",
+    "url": "https://arxiv.org/abs/2512.13643",
+    "eprint_url": "",
+    "citations": 0
+  },
+  {
+    "title": "Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences",
+    "authors": "Joshua Ashkinaze and Hua Shen and Saipranav Avula and Eric Gilbert and Ceren Budak",
+    "venue": "arXiv preprint arXiv:2511.02109",
+    "year": "2025",
+    "abstract": "We introduce the Deep Value Benchmark (DVB), an evaluation framework that directly tests whether large language models (LLMs) learn fundamental human values or merely surface-level preferences. This distinction is critical for AI alignment: Systems that capture deeper values are likely to generalize human intentions robustly, while those that capture only superficial patterns in preference data risk producing misaligned behavior. The DVB uses a novel experimental design with controlled confounding between deep values (e.g., moral principles) and shallow features (e.g., superficial attributes). In the training phase, we expose LLMs to human preference data with deliberately correlated deep and shallow features -- for instance, where a user consistently prefers (non-maleficence, formal language) options over (justice, informal language) alternatives. The testing phase then breaks these correlations, presenting choices between (justice, formal language) and (non-maleficence, informal language) options. This design allows us to precisely measure a model's Deep Value Generalization Rate (DVGR) -- the probability of generalizing based on the underlying value rather than the shallow feature. Across 9 different models, the average DVGR is just 0.30. All models generalize deep values less than chance. Larger models have a (slightly) lower DVGR than smaller models. We are releasing our dataset, which was subject to three separate human validation experiments. DVB provides an interpretable measure of a core feature of alignment.",
+    "url": "https://arxiv.org/abs/2511.02109",
+    "eprint_url": "",
+    "citations": 0
+  },
+  {
+    "title": "Framing Unionization on Facebook: Communication around Representation Elections in the United States",
+    "authors": "Arianna Pera and Veronica Jude and Ceren Budak and Luca Maria Aiello",
+    "venue": "arXiv preprint arXiv:2510.01757",
+    "year": "2025",
+    "abstract": "Digital media have become central to how labor unions communicate, organize, and sustain collective action. Yet little is known about how unions' online discourse relates to concrete outcomes such as representation elections. This study addresses the gap by combining National Labor Relations Board (NLRB) election data with 158k Facebook posts published by U.S. labor unions between 2015 and 2024. We focused on five discourse frames widely recognized in labor and social movement communication research: diagnostic (identifying problems), prognostic (proposing solutions), motivational (mobilizing action), community (emphasizing solidarity), and engagement (promoting interaction). Using a fine-tuned RoBERTa classifier, we systematically annotated unions' posts and analyzed patterns of frame usage around election events. Our findings showed that diagnostic and community frames dominated union communication overall, but that frame usage varied substantially across organizations. In election cases that unions won, communication leading up to the vote showed an increased use of diagnostic, prognostic, and community frames, followed by a reduction in prognostic and motivational framing after the event--patterns consistent with strategic preparation. By contrast, in lost election cases unions showed little adjustment in their communication, suggesting an absence of tailored communication strategies. By examining variation in message-level framing, the study highlights how communication strategies adapt to organizational contexts, contributing open tools and data and complementing prior research in understanding digital …",
+    "url": "https://arxiv.org/abs/2510.01757",
+    "eprint_url": "",
+    "citations": 0
+  },
+  {
+    "title": "Outsourcing an Information Operation: A Complete Dataset of Tenet Media's Podcasts on Rumble",
+    "authors": "Laura Kurek and Kevin Zheng and Eric Gilbert and Ceren Budak",
+    "venue": "arXiv preprint arXiv:2503.19802",
+    "year": "2025",
+    "abstract": "Tenet Media, a U.S.-based, right-wing media company, hired six established podcasters to create content related to U.S. politics and culture during the 2024 U.S. presidential election cycle. After publishing content on YouTube and Rumble for nearly a year, Tenet Media was declared by the U.S. government to be funded entirely by Russia -- making it effectively an outsourced state-sponsored information operation (SSIO). We present a complete dataset of the 560 podcast videos published by the Tenet Media channel on the video-sharing platform Rumble between November 2023 and September 2024. Our dataset includes video metadata and user comments, as well as high-quality video transcriptions, representing over 300 hours of video content. This dataset provides researchers with material to study a Russian SSIO, and notably on Rumble, which is an understudied platform in SSIO scholarship.",
+    "url": "https://arxiv.org/abs/2503.19802",
+    "eprint_url": "",
+    "citations": 0
+  },
+  {
+    "title": "Misunderstanding the harms of online misinformation",
+    "authors": "Ceren Budak and Brendan Nyhan and David M Rothschild and Emily Thorson and Duncan J Watts",
+    "venue": "",
+    "year": "2024",
+    "abstract": "The controversy over online misinformation and social media has opened a gap between public discourse and scientific research. Public intellectuals and journalists frequently make sweeping claims about the effects of exposure to false content online that are inconsistent with much of the current empirical evidence. Here we identify three common misperceptions: that average exposure to problematic content is high, that algorithms are largely responsible for this exposure and that social media is a primary cause of broader social problems such as polarization. In our review of behavioural science research on online misinformation, we document a pattern of low exposure to false and inflammatory content that is concentrated among a narrow fringe with strong motivations to seek out such information. In response, we recommend holding platforms accountable for facilitating exposure to false and extreme content in …",
+    "url": "https://www.nature.com/articles/s41586-024-07417-w",
+    "eprint_url": "",
+    "citations": 181
+  },
+  {
+    "title": "Framing social movements on social media: Unpacking diagnostic, prognostic, and motivational strategies",
+    "authors": "Julia Mendelsohn and Maya Vijan and Dallas Card and Ceren Budak",
+    "venue": "arXiv preprint arXiv:2406.13820",
+    "year": "2024",
+    "abstract": "Social media enables activists to directly communicate with the public and provides a space for movement leaders, participants, bystanders, and opponents to collectively construct and contest narratives. Focusing on Twitter messages from social movements surrounding three issues in 2018-2019 (guns, immigration, and LGBTQ rights), we create a codebook, annotated dataset, and computational models to detect diagnostic (problem identification and attribution), prognostic (proposed solutions and tactics), and motivational (calls to action) framing strategies. We conduct an in-depth unsupervised linguistic analysis of each framing strategy, and uncover cross-movement similarities in associations between framing and linguistic features such as pronouns and deontic modal verbs. Finally, we compare framing strategies across issues and other social, cultural, and interactional contexts. For example, we show that diagnostic framing is more common in replies than original broadcast posts, and that social movement organizations focus much more on prognostic and motivational framing than journalists and ordinary citizens.",
+    "url": "https://arxiv.org/abs/2406.13820",
+    "eprint_url": "",
+    "citations": 25
+  },
+  {
+    "title": "Social media and adolescent health",
+    "authors": "Sandro Galea and Ceren Budak and Munmun De Choudhury and Douglas Gentile and Amanda Guyer and Jeff Hancock and Julianne Holt-Lunstad and Stephanie Reich and Miguel Sarzosa and Leslie Walker-Harding and Christopher Yoo",
+    "venue": "",
+    "year": "2024",
+    "abstract": "Social media has been fully integrated into the lives of most adolescents in the US, raising concerns among parents, physicians, public health officials, and others about its effect on mental and physical health. Over the past year, an ad hoc committee of the National Academies of Sciences, Engineering, and Medicine examined the research and produced this detailed report exploring that effect and laying out recommendations for policymakers, regulators, industry, and others in an effort to maximize the good and minimize the bad. Focus areas include platform design, transparency and accountability, digital media literacy among young people and adults, online harassment, and supporting researchers.",
+    "url": "https://scholar.google.com/scholar?cluster=15761629889753393457&hl=en&oi=scholarr",
+    "eprint_url": "",
+    "citations": 15
+  },
+  {
+    "title": "Seeing like an ai: How llms apply (and misapply) wikipedia neutrality norms",
+    "authors": "Joshua Ashkinaze and Ruijia Guan and Laura Kurek and Eytan Adar and Ceren Budak and Eric Gilbert",
+    "venue": "arXiv preprint arXiv:2407.04183",
+    "year": "2024",
+    "abstract": "Large language models (LLMs) are trained on broad corpora and then used in communities with specialized norms. Is providing LLMs with community rules enough for models to follow these norms? We evaluate LLMs' capacity to detect (Task 1) and correct (Task 2) biased Wikipedia edits according to Wikipedia's Neutral Point of View (NPOV) policy. LLMs struggled with bias detection, achieving only 64% accuracy on a balanced dataset. Models exhibited contrasting biases (some under- and others over-predicted bias), suggesting distinct priors about neutrality. LLMs performed better at generation, removing 79% of words removed by Wikipedia editors. However, LLMs made additional changes beyond Wikipedia editors' simpler neutralizations, resulting in high-recall but low-precision editing. Interestingly, crowdworkers rated AI rewrites as more neutral (70%) and fluent (61%) than Wikipedia-editor rewrites. Qualitative analysis found LLMs sometimes applied NPOV more comprehensively than Wikipedia editors but often made extraneous non-NPOV-related changes (such as grammar). LLMs may apply rules in ways that resonate with the public but diverge from community experts. While potentially effective for generation, LLMs may reduce editor agency and increase moderation workload (e.g., verifying additions). Even when rules are easy to articulate, having LLMs apply them like community members may still be difficult.",
+    "url": "https://arxiv.org/abs/2407.04183",
+    "eprint_url": "",
+    "citations": 13
+  },
+  {
+    "title": "The dynamics of (not) unfollowing misinformation spreaders",
+    "authors": "Joshua Ashkinaze and Eric Gilbert and Ceren Budak",
+    "venue": "",
+    "year": "2024",
+    "abstract": "Many studies explore how people \"come into\" misinformation exposure. But much less is known about how people \"come out of\" misinformation exposure. Do people organically sever ties to misinformation spreaders? And what predicts doing so? Over six months, we tracked the frequency and predictors of ~900K followers unfollowing ~5K health misinformation spreaders on Twitter. We found that misinformation ties are persistent. Monthly unfollowing rates are just 0.52%. In other words, 99.5% of misinformation ties persist each month. Users are also 31% more likely to unfollownon- misinformation spreaders than they are to unfollow misinformation spreaders. Although generally infrequent, the factors most associated with unfollowing misinformation spreaders are (1) redundancy and (2) ideology. First, users initially following many spreaders, or who follow spreaders that tweet often, are most likely to unfollow later …",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3589334.3645445",
+    "eprint_url": "",
+    "citations": 11
+  },
+  {
+    "title": "Understanding the rationales and information environments for early, late, and nonadopters of the COVID-19 vaccine",
+    "authors": "Lisa Singh and Le Bao and Leticia Bode and Ceren Budak and Josh Pasek and Trivellore Raghunathan and Michael Traugott and Yanchen Wang and Nathan Wycoff",
+    "venue": "npj Vaccines",
+    "year": "2024",
+    "abstract": "Anti-vaccine sentiment during the COVID-19 pandemic grew at an alarming rate, leaving much to understand about the relationship between people’s vaccination status and the information they were exposed to. This study investigated the relationship between vaccine behavior, decision rationales, and information exposure on social media over time. Using a cohort study that consisted of a nationally representative survey of American adults, three subpopulations (early adopters, late adopters, and nonadopters) were analyzed through a combination of statistical analysis, network analysis, and semi-supervised topic modeling. The main reasons Americans reported choosing to get vaccinated were safety and health. However, work requirements and travel were more important for late adopters than early adopters (95% CI on OR of [0.121, 0.453]). While late adopters’ and nonadopters’ primary reason for not getting …",
+    "url": "https://www.nature.com/articles/s41541-024-00962-5",
+    "eprint_url": "",
+    "citations": 4
+  },
+  {
+    "title": "Intermedia agenda setting during the 2016 and 2020 US Presidential elections",
+    "authors": "Yijing Chen and Yaguang Liu and Lisa Singh and Ceren Budak",
+    "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
+    "year": "2024",
+    "abstract": "Intermedia agenda setting (IAS) theory suggests that different news sources can influence each other's agenda. While this theory has been well-established in existing literature, whether it still holds in today's high-choice media environment, which includes news producers of different credibility and ideology dispositions, is an open question. Through two case studies--the 2016 and 2020 US presidential elections--we show that media are still largely aligned, especially in broad topics they choose to cover, and that the level of alignment along the credibility dimension is comparable to that along the ideology dimension. Furthermore, we find that the coverage of the Republican candidate is better aligned across different media types than that of the Democratic candidate, and that media divergence has increased along both dimensions from 2016 to 2020. Finally, we demonstrate that high-credibility media still plays a dominant role in the IAS process, yet with a cautious warning of its declining IAS power for the Democratic candidate over the course of four years.",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/31312",
+    "eprint_url": "",
+    "citations": 2
+  },
+  {
+    "title": "Creating Bridges between Surveys and Social Media to Improve Our Understanding of Public Opinion",
+    "authors": "Lisa Singh and Yanchen Wang and Nathan Wycoff and Le Bao and Josh Pasek and Ceren Budak and Michael Jackson and Jessica Stapleton and Cameron McPhee and Michael Traugott and Trivellore Raghunathan",
+    "venue": "79th Annual AAPOR Conference",
+    "year": "2024",
+    "abstract": "",
+    "url": "https://aapor.confex.com/aapor/2024/meetingapp.cgi/Paper/3106",
+    "eprint_url": "",
+    "citations": 0
+  },
+  {
     "title": "Bridging Nations: Quantifying the Role of Multilinguals in Communication on Social Media",
     "authors": "Julia Mendelsohn, Sayan Ghosh, David Jurgens, Ceren Budak",
     "venue": "International Conference on Web and Social Media",
@@ -38,6 +198,16 @@
     "url": "https://doi.org/10.1177/14614448231183617",
     "eprint_url": "",
     "citations": 3
+  },
+  {
+    "title": "GuesSync!: an online casual game to reduce affective polarization",
+    "authors": "Ashwin Rajadesingan and Daniel Choo and Jessica Zhang and Mia Inakage and Ceren Budak and Paul Resnick",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction",
+    "year": "2023",
+    "abstract": "The past decade in the US has been one of the most politically polarizing in recent memory. Ordinary Democrats and Republicans fundamentally dislike and distrust each other, even when they agree on policy issues. This increase in hostility towards opposing party supporters, commonly called affective polarization, has important ramifications that threaten democracy. Political science research suggests that at least part of this polarization stems from Democrats' misperceptions about Republicans' political views and vice-versa. Therefore, in this work, drawing on insights from political science and game studies research, we designed an online casual game that combines the relaxed, playful nonpartisan norms of casual games with corrective information about party supporters' political views that are often misperceived. Through an experiment, we found that playing the game significantly reduces negative feelings …",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3610190",
+    "eprint_url": "",
+    "citations": 5
   },
   {
     "title": "Indexing theory during an emerging health crisis: how U.S. TV news indexed elite perspectives and amplified COVID-19 misinformation",
@@ -338,6 +508,46 @@
     "url": "https://doi.org/10.1145/3366423.3380272",
     "eprint_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/153786/1/Maldeniya%20et%20al.%202020.pdf",
     "citations": 24
+  },
+  {
+    "title": "Tackling misinformation: What researchers could do with social media data",
+    "authors": "Drew Margolin",
+    "venue": "Harvard Kennedy School Misinformation Review",
+    "year": "2020",
+    "abstract": "Written by Michelle A. Amazeen, Fabrício Benevenuto, Nadia M. Brashier, Robert M. Bond, Lia C. Bozarth, Ceren Budak, Ullrich KH Ecker, Lisa K. Fazio, Emilio Ferrara, Andrew J. Flanagin, Ales-sandro Flammini, Deen Freelon, Nir Grinberg, Ralph Hertwig, Kathleen Hall Jamieson, Kenneth Jo-seph, Jason J. Jones, R. Kelly Garrett, Daniel Kreiss, Shannon McGregor, Jasmine McNealy, Drew Margolin, Alice Marwick, FiIippo Menczer, Miriam J. Metzger, Seungahn Nah, Stephan Lewan-dowsky, Philipp Lorenz-Spreen, Pablo Ortellado, Irene Pasquetto, Gordon Pennycook, Ethan Porter, David G. Rand, Ronald Robertson, Briony Swire-Thompson, Francesca Tripodi, Soroush Vosoughi, Chris Vargo, Onur Varol, Brian E. Weeks, John Wihbey, Thomas J. Wood, & Kai-Cheng Yang",
+    "url": "https://www.academia.edu/download/88664581/pasquetto_misinformation_social_media_data_20201209-1.pdf",
+    "eprint_url": "",
+    "citations": 126
+  },
+  {
+    "title": "Words that matter: How the news and social media shaped the 2016 Presidential campaign",
+    "authors": "Leticia Bode and Ceren Budak and Jonathan M Ladd",
+    "venue": "",
+    "year": "2020",
+    "abstract": "How the 2016 news media environment allowed Trump to win the presidency The 2016 presidential election campaign might have seemed to be all about one man. He certainly did everything possible to reinforce that impression. But to an unprecedented degree the campaign also was about the news media and its relationships with the man who won and the woman he defeated. Words That Matter assesses how the news media covered the extraordinary 2016 election and, more important, what information true, false, or somewhere in between actually helped voters make up their minds. Using journalists' real-time tweets and published news coverage of campaign events, along with Gallup polling data measuring how voters perceived that reporting, the book traces the flow of information from candidates and their campaigns to journalists and to the public. The evidence uncovered shows how Donald Trump's victory, and Hillary Clinton's loss, resulted in large part from how the news media responded to these two unique candidates. Both candidates were unusual in their own ways, and thus presented a long list of possible issues for the media to focus on. Which of these many topics got communicated to voters made a big difference outcome. What people heard about these two candidates during the campaign was quite different. Coverage of Trump was scattered among many different issues, and while many of those issues were negative, no single negative narrative came to dominate the coverage of the man who would be elected the 45th president of the United States. Clinton, by contrast, faced an almost unrelenting news media focus on …",
+    "url": "https://books.google.com/books?hl=en&lr=&id=94B_EQAAQBAJ&oi=fnd&pg=PP1&dq=info:EUupHHWcIZ8J:scholar.google.com&ots=3nnlTjmUe-&sig=2gNXDaKhpgYFYBK1v8vZDwTpJEA",
+    "eprint_url": "",
+    "citations": 50
+  },
+  {
+    "title": "Cable and nightly network news coverage of coronavirus",
+    "authors": "Ashley Muddiman and Ceren Budak and Bryan Romas and Yujin Kim and Caroline Murray and Mary Margaret Burniston and Jessica Geiger and Alex Purcell and Jordan Ludzenski and Meg Turner and Marley Duchovany and Natalie Jomini Stroud",
+    "venue": "Center for Media Engagement",
+    "year": "2020",
+    "abstract": "Throughout the coronavirus pandemic, the public has turned to television news for updates, prompting a surge in ratings. To see how coverage differed across networks, the Center for Media Engagement examined the content of cable and nightly network news programs between January and June of 2020.",
+    "url": "https://mediaengagement.org/wp-content/uploads/2020/12/Cable-and-Nightly-Network-News-Coverage-of-Coronavirus-2.pdf",
+    "eprint_url": "",
+    "citations": 19
+  },
+  {
+    "title": "Data blending",
+    "authors": "Lisa Singh and Michael Traugott and Leticia Bode and Ceren Budak and Pamela E Davis-Kean and Ramanathan Guha and S Soroka",
+    "venue": "",
+    "year": "2020",
+    "abstract": "Data Blending–Motivation Data blending is the process of associating a variety of organic and observational data with more traditional administrative and survey data. It combines data obtained from designed studies with more ad hoc, non-designed, and/or organic (behavioral and digital trace data shared at scale) data sources. While data blending is currently resonant as “Big Data” gains prevalence in social science research, it is important to note that data blending is not new. Many different disciplines have been blending, merging, integrating, harmonizing, triangulating, linking, and joining data for a long time. The practice describes a process by which data are combined from multiple types of primary or secondary source material such as news reports, records prepared by administrative institutions, economic data generated by industry, documentation provided by non-governmental or not-for-profit organizations, social science surveys, observational studies, experiments, clinical data, and the like to produce research datasets for analysis.Given the long history of data blending, why is the topic resurfacing now? We believe there are two reasons: the accessibility of new forms of organic data, and the advantages of using these combined data to accelerate our understanding of phenomena that are difficult to understand. Contemporary data blending typically combines the methods and analytical skills of the social sciences with those of computer science and data science to conduct new forms of analysis and to produce new understandings of social phenomena. This bridging of disciplines is advantageous because data exist at varying …",
+    "url": "https://mccourt.georgetown.edu/wp-content/uploads/2022/02/MDI-Data-Blending-White-Paper-April2020_ACCESSIBLE.pdf",
+    "eprint_url": "",
+    "citations": 13
   },
   {
     "title": "Lay it Out: Detecting of Fake News Publishers through Website Structure Data",

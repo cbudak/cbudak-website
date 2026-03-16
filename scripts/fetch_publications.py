@@ -5,6 +5,9 @@ Fetch publications from Semantic Scholar API and save to publications.json.
 Semantic Scholar is free, requires no API key, and works reliably in CI
 environments (unlike Google Scholar which blocks datacenter IPs).
 
+Papers not yet indexed by Semantic Scholar can be added manually to
+publications_extra.json — they are merged in automatically every run.
+
 Run manually:
     pip install -r scripts/requirements.txt
     python scripts/fetch_publications.py
@@ -13,16 +16,17 @@ Or triggered automatically by the GitHub Action every two weeks.
 """
 
 import json
+import re
 import time
 import sys
 import os
 import requests
 
 AUTHOR_NAME   = "Ceren Budak"
-AUTHOR_ID     = "1759771"   # Semantic Scholar ID — 70 papers, correct profile
+AUTHOR_ID     = "1759771"   # Semantic Scholar ID — correct profile (70 papers)
 OUTPUT_PATH   = os.path.join(os.path.dirname(__file__), "..", "publications.json")
+EXTRA_PATH    = os.path.join(os.path.dirname(__file__), "..", "publications_extra.json")
 
-SEARCH_URL  = "https://api.semanticscholar.org/graph/v1/author/search"
 PAPERS_URL  = "https://api.semanticscholar.org/graph/v1/author/{author_id}/papers"
 PAPER_FIELDS = (
     "title,authors,venue,year,abstract,"
@@ -30,21 +34,6 @@ PAPER_FIELDS = (
 )
 
 HEADERS = {"User-Agent": "cbudak-website-publications-bot/1.0"}
-
-
-def find_author_id(name: str) -> str:
-    resp = requests.get(
-        SEARCH_URL,
-        params={"query": name, "fields": "authorId,name,affiliations"},
-        headers=HEADERS,
-        timeout=30,
-    )
-    resp.raise_for_status()
-    for author in resp.json().get("data", []):
-        if "budak" in author["name"].lower():
-            print(f"  Found: {author['name']}  (ID: {author['authorId']})")
-            return author["authorId"]
-    raise ValueError(f"Author '{name}' not found on Semantic Scholar")
 
 
 def fetch_all_papers(author_id: str) -> list:
@@ -98,21 +87,51 @@ def normalize(paper: dict) -> dict:
     }
 
 
+def title_key(title: str) -> str:
+    """Normalize title for deduplication — lowercase, alphanumeric only."""
+    return re.sub(r"[^a-z0-9]", "", title.lower())
+
+
+def merge_extra(publications: list) -> list:
+    """Merge publications_extra.json, skipping papers already in Semantic Scholar."""
+    extra_path = os.path.normpath(EXTRA_PATH)
+    if not os.path.exists(extra_path):
+        return publications
+
+    with open(extra_path, encoding="utf-8") as f:
+        extra = json.load(f)
+
+    ss_keys = {title_key(p["title"]) for p in publications}
+    added = 0
+    for p in extra:
+        key = title_key(p.get("title", ""))
+        if key and key not in ss_keys:
+            publications.append(p)
+            ss_keys.add(key)
+            added += 1
+
+    if added:
+        print(f"  Merged {added} extra papers from publications_extra.json")
+    return publications
+
+
 def fetch_publications() -> bool:
-    author_id = AUTHOR_ID
-    print(f"Using Semantic Scholar author ID: {author_id} ({AUTHOR_NAME})")
+    print(f"Using Semantic Scholar author ID: {AUTHOR_ID} ({AUTHOR_NAME})")
     print("Fetching papers…")
     try:
-        raw = fetch_all_papers(author_id)
+        raw = fetch_all_papers(AUTHOR_ID)
     except Exception as e:
         print(f"Error fetching papers: {e}")
         return False
 
     publications = [normalize(p) for p in raw]
 
+    # Merge any papers not yet indexed by Semantic Scholar
+    publications = merge_extra(publications)
+
     # Sort newest first; entries without a year go to the bottom
     publications.sort(
-        key=lambda x: int(x["year"]) if x["year"].isdigit() else 0,
+        key=lambda x: int(x["year"]) if str(x.get("year", "")).isdigit() else 0,
         reverse=True,
     )
 
