@@ -1,0 +1,451 @@
+/* Ceren Budak — Personal Academic Website */
+
+:root {
+  --bg: #ffffff;
+  --bg-secondary: #f8fafc;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --accent: #1d4ed8;
+  --accent-hover: #1e40af;
+  --border: #e2e8f0;
+  --nav-bg: #1e293b;
+  --nav-text: #cbd5e1;
+  --nav-active: #93c5fd;
+  --max-width: 920px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* ── NAV ─────────────────────────────────────────── */
+nav {
+  background: var(--nav-bg);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.nav-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-name {
+  color: #f1f5f9;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 1rem 0;
+  margin-right: auto;
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+}
+
+nav ul { list-style: none; display: flex; }
+
+nav ul li a {
+  display: block;
+  padding: 1rem 0.85rem;
+  color: var(--nav-text);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.15s;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover { color: #f1f5f9; }
+nav ul li.active a { color: var(--nav-active); border-bottom-color: var(--nav-active); }
+
+/* ── MAIN ────────────────────────────────────────── */
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+/* ── HERO ────────────────────────────────────────── */
+.hero {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.hero-photo img {
+  width: 185px;
+  height: 230px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.13);
+  flex-shrink: 0;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem;
+}
+
+.hero-text .title {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.hero-text p { margin-bottom: 0.9rem; font-size: 0.95rem; }
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.82rem;
+  color: var(--text);
+  background: var(--bg-secondary);
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.contact-links a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: #eff6ff;
+}
+
+/* ── SECTION HEADING ─────────────────────────────── */
+.section-heading {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+section { margin-bottom: 2.75rem; }
+
+/* ── PROSPECTIVE STUDENTS BOX ───────────────────── */
+.info-box {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  font-size: 0.9rem;
+}
+
+.info-box a { color: var(--accent); }
+
+/* ── RESEARCH CARDS ──────────────────────────────── */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1rem;
+}
+
+.research-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.4rem;
+  background: var(--bg-secondary);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.research-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  border-color: #bfdbfe;
+}
+
+.research-card h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.research-card p {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+.card-papers {
+  list-style: none;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.card-papers li {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.card-papers a {
+  color: var(--accent);
+  text-decoration: none;
+  flex: 1;
+}
+
+.card-papers a:hover { text-decoration: underline; text-underline-offset: 2px; }
+
+.card-year {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0.25rem;
+}
+
+.card-papers-header {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  margin-bottom: 0.4rem;
+}
+
+.card-papers-header a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.card-papers-header a:hover { text-decoration: underline; }
+
+/* ── PUBLICATIONS ────────────────────────────────── */
+.pub-controls {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.pub-search {
+  flex: 1;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.15s;
+  color: var(--text);
+}
+
+.pub-search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(29,78,216,0.1); }
+
+.pub-count {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.pub-list { list-style: none; }
+
+.pub-item {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub-item:last-child { border-bottom: none; }
+
+.pub-title {
+  font-size: 0.93rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.pub-title a { color: var(--text); text-decoration: none; }
+.pub-title a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+.pub-meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 0.15rem;
+}
+
+.pub-year {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: #eff6ff;
+  padding: 0.05rem 0.45rem;
+  border-radius: 10px;
+  margin-right: 0.4rem;
+}
+
+.pub-venue { font-style: italic; }
+
+.pub-citations {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-left: 0.5rem;
+}
+
+.pub-abstract-btn {
+  font-size: 0.78rem;
+  color: var(--accent);
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 0.35rem;
+  display: block;
+  text-underline-offset: 2px;
+}
+.pub-abstract-btn:hover { text-decoration: underline; }
+
+.pub-abstract {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--bg-secondary);
+  border-left: 3px solid #bfdbfe;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.65;
+  display: none;
+}
+
+.pub-abstract.open { display: block; }
+
+/* Book highlight */
+.pub-item.book .pub-title a { color: var(--accent-hover); }
+.pub-item.book { background: #fefce8; padding: 1.1rem 0.9rem; border-radius: 6px; border: 1px solid #fef08a; margin-bottom: 0.5rem; }
+
+/* Empty / loading state */
+.pub-empty {
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+.pub-empty a { color: var(--accent); }
+
+/* ── STUDENTS ────────────────────────────────────── */
+.student-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.student-list li {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.student-list a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.student-list a:hover { text-decoration: underline; text-underline-offset: 2px; }
+
+.student-meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* ── TEACHING ────────────────────────────────────── */
+.course-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.4rem;
+  margin-bottom: 1rem;
+  background: var(--bg-secondary);
+}
+
+.course-card h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.course-card h3 a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.course-card h3 a:hover { text-decoration: underline; }
+.course-card p { font-size: 0.875rem; color: var(--text-muted); }
+
+.course-terms {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* ── PAGE TITLE ──────────────────────────────────── */
+.page-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.4rem;
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+/* ── FOOTER ──────────────────────────────────────── */
+footer {
+  background: var(--nav-bg);
+  color: #64748b;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.82rem;
+}
+
+footer a { color: #93c5fd; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/* ── RESPONSIVE ──────────────────────────────────── */
+@media (max-width: 660px) {
+  .hero { flex-direction: column; gap: 1.5rem; }
+  .hero-photo img { width: 140px; height: 175px; }
+  .hero-text h1 { font-size: 1.6rem; }
+  .research-grid { grid-template-columns: 1fr; }
+  .nav-name { display: none; }
+  nav ul li a { padding: 1rem 0.55rem; font-size: 0.8rem; }
+  main { padding: 2rem 1rem 3rem; }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Ceren Budak</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Ceren Budak</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="publications.html">Publications</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="cv.pdf">CV</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <h1 class="page-title">Publications</h1>
+  <p class="page-subtitle">
+    Automatically synced from
+    <a href="https://scholar.google.com/citations?user=wIhJS60AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+    · updated every two weeks.
+  </p>
+
+  <!-- ── BOOK ─────────────────────────────────────── -->
+  <section>
+    <h2 class="section-heading">Book</h2>
+    <ul class="pub-list">
+      <li class="pub-item book">
+        <div class="pub-title">
+          <a href="https://www.brookings.edu/book/words-that-matter/" target="_blank" rel="noopener">
+            Words that Matter: How the News and Social Media Shaped the 2016 Presidential Campaign
+          </a>
+        </div>
+        <div class="pub-meta">
+          Leticia Bode, Ceren Budak, Jonathan M. Ladd, Frank Newport, Josh Pasek, Lisa O. Singh,
+          Stuart N. Soroka, and Michael W. Traugott
+        </div>
+        <div class="pub-meta pub-venue">Brookings Institution Press, 2020</div>
+        <div style="margin-top:0.4rem;font-size:0.82rem;">
+          <a href="https://www.amazon.com/Words-that-Matter-Presidential-Campaign/dp/0815731914/" target="_blank" rel="noopener">Amazon</a>
+          &nbsp;·&nbsp;
+          <a href="https://www.literatibookstore.com/book/9780815731917" target="_blank" rel="noopener">Literati Bookstore (Ann Arbor)</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ── PAPERS ────────────────────────────────────── -->
+  <section>
+    <h2 class="section-heading">Papers</h2>
+
+    <div class="pub-controls">
+      <input
+        class="pub-search"
+        type="search"
+        id="pub-search"
+        placeholder="Filter by keyword, author, venue…"
+        aria-label="Search publications"
+      />
+      <span class="pub-count" id="pub-count"></span>
+    </div>
+
+    <ul class="pub-list" id="pub-list">
+      <li>
+        <div class="pub-empty" id="pub-loading">
+          <p>Loading publications…</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="pub-empty" id="pub-fallback" style="display:none;">
+      <p>
+        Publications list is being generated. In the meantime, view the full list on
+        <a href="https://scholar.google.com/citations?user=wIhJS60AAAAJ" target="_blank" rel="noopener">Google Scholar</a>.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>
+    Publications synced from <a href="https://scholar.google.com/citations?user=wIhJS60AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+    via automated GitHub Action.
+  </p>
+</footer>
+
+<script>
+let allPubs = [];
+
+function highlight(text, query) {
+  if (!query || !text) return text || '';
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return text.replace(new RegExp(`(${escaped})`, 'gi'), '<mark style="background:#fef08a;border-radius:2px;">$1</mark>');
+}
+
+function renderPubs(pubs, query) {
+  const list = document.getElementById('pub-list');
+  const countEl = document.getElementById('pub-count');
+
+  if (pubs.length === 0) {
+    list.innerHTML = '<li><div class="pub-empty"><p>No publications match your search.</p></div></li>';
+    countEl.textContent = '0 results';
+    return;
+  }
+
+  countEl.textContent = `${pubs.length} publication${pubs.length !== 1 ? 's' : ''}`;
+
+  list.innerHTML = pubs.map((pub, i) => {
+    const titleText = highlight(pub.title || 'Untitled', query);
+    const titleHtml = pub.url
+      ? `<a href="${pub.url}" target="_blank" rel="noopener">${titleText}</a>`
+      : titleText;
+
+    const authorsText = highlight(pub.authors || '', query);
+    const venueText   = highlight(pub.venue   || '', query);
+    const absText     = pub.abstract ? highlight(pub.abstract, query) : '';
+
+    const citations = pub.citations > 0
+      ? `<span class="pub-citations">· cited ${pub.citations}×</span>`
+      : '';
+
+    const abstractSection = absText
+      ? `<button class="pub-abstract-btn" onclick="toggleAbstract(this)" aria-expanded="false">▶ Abstract</button>
+         <div class="pub-abstract">${absText}</div>`
+      : '';
+
+    const eprintLink = pub.eprint_url
+      ? `&nbsp;·&nbsp;<a href="${pub.eprint_url}" target="_blank" rel="noopener" style="font-size:0.78rem;">PDF</a>`
+      : '';
+
+    return `
+      <li class="pub-item" data-index="${i}">
+        <div class="pub-title">${titleHtml}${eprintLink}</div>
+        <div class="pub-meta">
+          <span class="pub-year">${pub.year || '—'}</span>
+          ${authorsText}${citations}
+        </div>
+        <div class="pub-meta pub-venue">${venueText}</div>
+        ${abstractSection}
+      </li>`;
+  }).join('');
+}
+
+function toggleAbstract(btn) {
+  const abs = btn.nextElementSibling;
+  const open = abs.classList.toggle('open');
+  btn.textContent = open ? '▼ Abstract' : '▶ Abstract';
+  btn.setAttribute('aria-expanded', open);
+}
+
+function filterPubs(query) {
+  if (!query.trim()) return renderPubs(allPubs, '');
+  const q = query.toLowerCase();
+  const filtered = allPubs.filter(pub =>
+    [pub.title, pub.authors, pub.venue, pub.abstract].join(' ').toLowerCase().includes(q)
+  );
+  renderPubs(filtered, query);
+}
+
+// Load publications
+fetch('publications.json')
+  .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
+  .then(pubs => {
+    document.getElementById('pub-loading').style.display = 'none';
+    if (!pubs || pubs.length === 0) {
+      document.getElementById('pub-fallback').style.display = 'block';
+      return;
+    }
+    // Sort newest first
+    pubs.sort((a, b) => (parseInt(b.year) || 0) - (parseInt(a.year) || 0));
+    allPubs = pubs;
+    renderPubs(allPubs, '');
+
+    const search = document.getElementById('pub-search');
+    search.addEventListener('input', e => filterPubs(e.target.value));
+  })
+  .catch(() => {
+    document.getElementById('pub-loading').style.display = 'none';
+    document.getElementById('pub-fallback').style.display = 'block';
+  });
+</script>
+
+</body>
+</html>
