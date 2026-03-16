@@ -1,0 +1,38 @@
+name: Update Publications
+
+on:
+  schedule:
+    # Runs at 6:00 AM UTC on the 1st and 15th of every month
+    - cron: "0 6 1,15 * *"
+  workflow_dispatch:  # Allow manual trigger from the GitHub UI
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit publications.json back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch publications from Google Scholar
+        run: python scripts/fetch_publications.py
+
+      - name: Commit and push if publications changed
+        run: |
+          git config --global user.name  "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add publications.json
+          # Only commit if there are actual changes
+          git diff --staged --quiet \
+            || git commit -m "chore: update publications from Google Scholar [skip ci]"
+          git push
