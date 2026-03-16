@@ -240,16 +240,6 @@
     "citations": 19
   },
   {
-    "title": "Correction",
-    "authors": "Ashley Muddiman, Ceren Budak, Caroline C. Murray, Yujin Kim, N. Stroud",
-    "venue": "Issues in Mental Health Nursing",
-    "year": "2022",
-    "abstract": "Article title: Indexing theory during an emerging health crisis: how U.S. TV news indexed elite perspectives and amplified COVID-19 misinformation Authors: Ashley Muddiman, Ceren Budak, Caroline Murray, Yujin Kim & Natalie Jomini Stroud Journal: Annals of the International Communication Association Bibliometrics: Volume 46, Number 3, pages 174–204 DOI: http://dx.doi.org/10.1080/23808985.2022.2120521",
-    "url": "https://doi.org/10.1080/01612840.2023.2202615",
-    "eprint_url": "https://www.tandfonline.com/doi/pdf/10.1080/01612840.2023.2202615?needAccess=true",
-    "citations": 0
-  },
-  {
     "title": "Modeling Framing in Immigration Discourse on Social Media",
     "authors": "Julia Mendelsohn, Ceren Budak, David Jurgens",
     "venue": "North American Chapter of the Association for Computational Linguistics",
@@ -700,16 +690,6 @@
     "citations": 56
   },
   {
-    "title": "Mind your Ps and Vs: A perspective on the challenges of big data management and privacy concerns",
-    "authors": "D. Agrawal, A. El Abbadi, Vaibhav Arora, Ceren Budak, T. Georgiou, Hatem A. Mahmoud, Faisal Nawab, Cetin Sahin, Shiyuan Wang",
-    "venue": "International Conference on Big Data and Smart Computing",
-    "year": "2015",
-    "abstract": "",
-    "url": "https://doi.org/10.1109/35021BIGCOMP.2015.7072814",
-    "eprint_url": "",
-    "citations": 7
-  },
-  {
     "title": "Big Data in Online Social Networks: User Interaction Analysis to Model User Behavior in Social Networks",
     "authors": "D. Agrawal, Ceren Budak, A. El Abbadi, T. Georgiou, Xifeng Yan",
     "venue": "Databases in Networked Information Systems",
@@ -770,16 +750,6 @@
     "citations": 75
   },
   {
-    "title": "ImmuNet : Improved immunization of children through cellular network technology",
-    "authors": "M. Zheleva, Ceren Budak, Arghyadip Paul, Bi-Yong Liu, E. Belding, A. El Abbadi",
-    "venue": "",
-    "year": "2012",
-    "abstract": "",
-    "url": "https://www.semanticscholar.org/paper/111ea4fd9aeff84092b389b8a22fd1e7dd39a0ae",
-    "eprint_url": "",
-    "citations": 0
-  },
-  {
     "title": "Big data challenges and opportunities: information diffusion, user behavior, and informational trends in online social networks",
     "authors": "D. Agrawal, A. El Abbadi, Ceren Budak",
     "venue": "",
@@ -808,16 +778,6 @@
     "url": "https://doi.org/10.1109/ICDM.2012.74",
     "eprint_url": "",
     "citations": 19
-  },
-  {
-    "title": "AES on GPU: a CUDA Implementation",
-    "authors": "Camilla Fiorese, Ceren Budak",
-    "venue": "",
-    "year": "2011",
-    "abstract": "",
-    "url": "https://www.semanticscholar.org/paper/1e362a7764957a7382120d5aa6979d1515f53133",
-    "eprint_url": "",
-    "citations": 2
   },
   {
     "title": "Data-Driven Modeling and Analysis of Online Social Networks",
@@ -870,16 +830,6 @@
     "citations": 16
   },
   {
-    "title": "A Study on VLSI On-line Stability Detectors",
-    "authors": "Lara B. Deek, V.W.-W. Tang, P. Bogdanov, Ceren Budak, Aaron J. Elmore",
-    "venue": "",
-    "year": "2010",
-    "abstract": "",
-    "url": "https://www.semanticscholar.org/paper/08ba930e21bc1a717627def6e896f7a50b36580e",
-    "eprint_url": "",
-    "citations": 0
-  },
-  {
     "title": "Solving path problems on the GPU",
     "authors": "A. Buluç, J. Gilbert, Ceren Budak",
     "venue": "Parallel Computing",
@@ -898,15 +848,5 @@
     "url": "https://doi.org/10.1145/1964858.1964873",
     "eprint_url": "",
     "citations": 19
-  },
-  {
-    "title": "Gaussian Elimination Based Algorithms on the GPU",
-    "authors": "A. Buluç, J. Gilbert, Ceren Budak",
-    "venue": "",
-    "year": "2008",
-    "abstract": "",
-    "url": "https://www.semanticscholar.org/paper/8e828080e54e0e3b9b85b9c9c0f26a05c8c7f383",
-    "eprint_url": "",
-    "citations": 11
   }
 ]

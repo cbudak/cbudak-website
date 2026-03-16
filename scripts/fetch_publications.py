@@ -27,6 +27,17 @@ AUTHOR_ID     = "1759771"   # Semantic Scholar ID — correct profile (70 papers
 OUTPUT_PATH   = os.path.join(os.path.dirname(__file__), "..", "publications.json")
 EXTRA_PATH    = os.path.join(os.path.dirname(__file__), "..", "publications_extra.json")
 
+# Exact titles to exclude (correction notices, errata, mis-attributed entries).
+# Add lowercase titles here to permanently suppress them.
+BLOCKLIST = {
+    "correction",
+    "immunet : improved immunization of children through cellular network technology",
+    "a study on vlsi on-line stability detectors",
+    "aes on gpu: a cuda implementation",
+    "mind your ps and vs: a perspective on the challenges of big data management and privacy concerns",
+    "gaussian elimination based algorithms on the gpu",  # duplicate of "solving path problems on the gpu"
+}
+
 PAPERS_URL  = "https://api.semanticscholar.org/graph/v1/author/{author_id}/papers"
 PAPER_FIELDS = (
     "title,authors,venue,year,abstract,"
@@ -124,7 +135,10 @@ def fetch_publications() -> bool:
         print(f"Error fetching papers: {e}")
         return False
 
-    publications = [normalize(p) for p in raw]
+    publications = [
+        normalize(p) for p in raw
+        if p.get("title", "").strip().lower() not in BLOCKLIST
+    ]
 
     # Merge any papers not yet indexed by Semantic Scholar
     publications = merge_extra(publications)
