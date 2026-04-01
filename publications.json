@@ -227,7 +227,7 @@
     "abstract": "Political and social scientists have been relying extensively on keywords such as hashtags to mine social movement data from social media sites, particularly Twitter. Yet, prior work demonstrates that unrepresentative keyword sets can lead to flawed research conclusions. Numerous keyword expansion methods have been proposed to increase the comprehensiveness of keywords, but systematic evaluations of these methods have been lacking. Our paper fills this gap. We evaluate five diverse keyword expansion techniques (or pipelines) on five representative social movements across two distinct activity levels. Our results guide researchers who aim to use social media keyword searches to mine data. For instance, we show that word embedding-based methods significantly outperform other even more complex and newer approaches when movements are in normal activity periods. These methods are also less computationally intensive. More importantly, we also observe that no single pipeline can identify little more than half of all movement-related tweets when these movements are at their peak mobilization period offline. However, coverage can increase significantly when more than one pipeline is used. This is true even when the pipelines are selected at random.",
     "url": "https://doi.org/10.1140/epjds/s13688-022-00343-9",
     "eprint_url": "https://epjdatascience.springeropen.com/track/pdf/10.1140/epjds/s13688-022-00343-9",
-    "citations": 16
+    "citations": 17
   },
   {
     "title": "Traditional and context-specific spam detection in low resource settings",
@@ -257,7 +257,7 @@
     "abstract": "In this paper, we present a dataset of COVID-19 coverage by cable and broadcast news networks. Our dataset, which spans the time period between January 21, 2020 and June 12, 2020, includes 44,643 transcript paragraphs that are manually labeled according to their relevance to COVID-19 and 486,068 paragraphs that are further labeled using supervised classifiers. We further provide descriptive analysis that shows differences in the degree to which networks covered the pandemic and how the content of this coverage varied. Our distinctive phrase analysis also suggests that cable news networks, particularly Fox News and MSNBC, are politicizing COVID-19. This dataset can be leveraged to model and characterize the role cable and broadcast news networks play in shaping COVID-19 attitudes and behaviors, as well as how the coverage was related to external events (e.g. the number of COVID-19 cases), coverage in other media (e.g. newspapers), and COVID-19 conversations on social media (e.g. Twitter). The COVID-19 cable and broadcast news dataset is publicly available to the research community, and can be accessed at https://doi.org/10.7910/DVN/LWMYAD.",
     "url": "https://doi.org/10.1609/icwsm.v15i1.18118",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18118/17921",
-    "citations": 6
+    "citations": 7
   },
   {
     "title": "Political Discussion is Abundant in Non-political Subreddits (and Less Toxic)",
@@ -397,7 +397,7 @@
     "abstract": "Online communities about similar topics may maintain very different norms of interaction. Past research identifies many processes that contribute to maintaining stable norms, including self-selection, pre-entry learning, post-entry learning, and retention. We analyzed political subreddits that had distinctive, stable levels of toxic comments on Reddit, in order to identify the relative contribution of these four processes. Surprisingly, we find that the largest source of norm stability is pre-entry learning. That is, newcomers' first comments in these distinctive subreddits differ from those same people's prior behavior in other subreddits. Through this adjustment, they nearly match the toxicity level of the subreddit they are joining. We also show that behavior adjustments are community-specific and not broadly transformative. That is, people continue to post toxic comments at their previous rates in other political subreddits. Thus, we conclude that in political subreddits, compatible newcomers are neither born nor made– they make local adjustments on their own.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7323",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7323/7177",
-    "citations": 90
+    "citations": 92
   },
   {
     "title": "Beyond the eye-catchers: A large-scale study of social movement organizations’ involvement in online protests",
@@ -807,7 +807,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/1963405.1963499",
     "eprint_url": "",
-    "citations": 882
+    "citations": 883
   },
   {
     "title": "Structural Trend Analysis for Online Social Networks",
