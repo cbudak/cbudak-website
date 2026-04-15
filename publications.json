@@ -247,7 +247,7 @@
     "abstract": "The framing of political issues can influence policy and public opinion. Even though the public plays a key role in creating and spreading frames, little is known about how ordinary people on social media frame political issues. By creating a new dataset of immigration-related tweets labeled for multiple framing typologies from political communication theory, we develop supervised models to detect frames. We demonstrate how users’ ideology and region impact framing choices, and how a message’s framing influences audience responses. We find that the more commonly-used issue-generic frames obscure important ideological and regional patterns that are only revealed by immigration-specific frames. Furthermore, frames oriented towards human interests, culture, and politics are associated with higher user engagement. This large-scale analysis of a complex social and linguistic phenomenon contributes to both NLP and social science research.",
     "url": "https://doi.org/10.18653/v1/2021.naacl-main.179",
     "eprint_url": "https://aclanthology.org/2021.naacl-main.179.pdf",
-    "citations": 90
+    "citations": 91
   },
   {
     "title": "COVID-19 Coverage By Cable and Broadcast Networks",
@@ -267,7 +267,7 @@
     "abstract": "Research on online political communication has primarily focused on content in explicitly political spaces. In this work, we set out to determine the amount of political talk missed using this approach. Focusing on Reddit, we estimate that nearly half of all political talk takes place in subreddits that host political content less than 25% of the time. In other words, cumulatively, political talk in non-political spaces is abundant. We further examine the nature of political talk and show that political conversations are less toxic in non-political subreddits. Indeed, the average toxicity of political comments replying to a out-partisan in non-political subreddits is less than even the toxicity of co-partisan replies in explicitly political subreddits.",
     "url": "https://doi.org/10.1609/icwsm.v15i1.18081",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18081/17884",
-    "citations": 40
+    "citations": 41
   },
   {
     "title": "Better Crowdcoding: Strategies for Promoting Accuracy in Crowdsourced Content Analysis",
@@ -317,7 +317,7 @@
     "abstract": "When U.S. presidential candidates misrepresent the facts, their claims get discussed across media streams, creating a lasting public impression. We show this through a public performance: the 2020 presidential debates. For every five newspaper articles related to the presidential candidates, President Donald J. Trump and Joseph R. Biden Jr., there was one mention of a misinformation-related topic advanced during the debates. Personal attacks on Biden and election integrity were the most prevalent topics across social media, newspapers, and TV. These two topics also surfaced regularly in voters’ recollections of the candidates, suggesting their impression lasted through the presidential election.",
     "url": "https://doi.org/10.37016/mr-2020-84",
     "eprint_url": "https://misinforeview.hks.harvard.edu/wp-content/uploads/2021/12/haber_lies_and_presidential_debates_20211217.pdf",
-    "citations": 9
+    "citations": 10
   },
   {
     "title": "Data Acquisition, Sampling, and Data Preparation Considerations for Quantitative Social Science Research Using Social Media Data",
@@ -807,7 +807,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/1963405.1963499",
     "eprint_url": "",
-    "citations": 883
+    "citations": 884
   },
   {
     "title": "Structural Trend Analysis for Online Social Networks",
