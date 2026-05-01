@@ -177,7 +177,7 @@
     "abstract": "Past work has explored various ways for online platforms to leverage crowd wisdom for misinformation detection and moderation. Yet, platforms often relegate governance to their communities, and limited research has been done from the perspective of these communities and their moderators. How is misinformation currently moderated in online communities that are heavily self-governed? What role does the crowd play in this process, and how can this process be improved? In this study, we answer these questions through semi-structured interviews with Reddit moderators. We focus on a case study of COVID-19 misinformation. First, our analysis identifies a general moderation workflow model encompassing various processes participants use for handling COVID-19 misinformation. Further, we show that the moderation workflow revolves around three elements: content facticity, user intent, and perceived harm. Next, our interviews reveal that Reddit moderators rely on two types of crowd wisdom for misinformation detection. Almost all participants are heavily reliant on reports from crowds of ordinary users to identify potential misinformation. A second crowd--participants' own moderation teams and expert moderators of other communities--provide support when participants encounter difficult, ambiguous cases. Finally, we use design probes to better understand how different types of crowd signals---from ordinary users and moderators---readily available on Reddit can assist moderators with identifying misinformation. We observe that nearly half of all participants preferred these cues over labels from expert fact-checkers because these cues can help them discern user intent. Additionally, a quarter of the participants distrust professional fact-checkers, raising important concerns about misinformation moderation.",
     "url": "https://doi.org/10.1145/3579631",
     "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3579631",
-    "citations": 23
+    "citations": 25
   },
   {
     "title": "The Stability of Cable and Broadcast News Intermedia Agenda Setting Across the COVID-19 Issue Attention Cycle",
@@ -367,7 +367,7 @@
     "abstract": "Larry Lessig argues that four modes regulate behavior in cyberspace: laws, markets, norms, and architecture. How can these four modes regulate the production and spread of fake news? In this paper, we focus on markets and empirically evaluate one particular market-based solution: top ad firms blacklisting fake news producers to eliminate their revenue sources. Our study reveals that fake and low-quality publishers demonstrate a higher tendency to serve more ads and to partner with risky ad servers than traditional news media with similar popularity and age. However, fake news publishers are still strongly reliant on credible ad servers. In fact, the top-10 credible ad servers alone account for 66.7% and 55.6% of fake and low-quality ad traffic respectively. Furthermore, our back-of-the-envelope calculation shows that, at the time of our data collection, the top-10 ad firms were receiving $985.7K to $1.15M monthly from web traffic on fake news sites, a negligible fraction of these firms' annual revenue. Overall, our findings suggest that having top ad firms blacklist known fake and low-quality publishers is a low-cost way to combat fake news.",
     "url": "https://doi.org/10.2139/ssrn.3650585",
     "eprint_url": "",
-    "citations": 18
+    "citations": 19
   },
   {
     "title": "Attention to Campaign Events",
@@ -387,7 +387,7 @@
     "abstract": "This article investigates the prevalence of high and low quality URLs shared on Twitter when users discuss COVID-19. We distinguish between high quality health sources, traditional news sources, and low quality misinformation sources. We find that misinformation, in terms of tweets containing URLs from low quality misinformation websites, is shared at a higher rate than tweets containing URLs on high quality health information websites. However, both are a relatively small proportion of the overall conversation. In contrast, news sources are shared at a much higher rate. These findings lead us to analyze the network created by the URLs referenced on the webpages shared by Twitter users. When looking at the combined network formed by all three of the source types, we find that the high quality health information network, the low quality misinformation network, and the news information network are all well connected with a clear community structure. While high and low quality sites do have connections to each other, the connections to and from news sources are more common, highlighting the central brokerage role news sources play in this information ecosystem. Our findings suggest that while low quality URLs are not extensively shared in the COVID-19 Twitter conversation, a well connected community of low quality COVID-19 related information has emerged on the web, and both health and news sources are connecting to this community.",
     "url": "https://doi.org/10.1007/s42001-020-00093-6",
     "eprint_url": "https://link.springer.com/content/pdf/10.1007/s42001-020-00093-6.pdf",
-    "citations": 62
+    "citations": 63
   },
   {
     "title": "Quick, Community-Specific Learning: How Distinctive Toxicity Norms Are Maintained in Political Subreddits",
@@ -397,7 +397,7 @@
     "abstract": "Online communities about similar topics may maintain very different norms of interaction. Past research identifies many processes that contribute to maintaining stable norms, including self-selection, pre-entry learning, post-entry learning, and retention. We analyzed political subreddits that had distinctive, stable levels of toxic comments on Reddit, in order to identify the relative contribution of these four processes. Surprisingly, we find that the largest source of norm stability is pre-entry learning. That is, newcomers' first comments in these distinctive subreddits differ from those same people's prior behavior in other subreddits. Through this adjustment, they nearly match the toxicity level of the subreddit they are joining. We also show that behavior adjustments are community-specific and not broadly transformative. That is, people continue to post toxic comments at their previous rates in other political subreddits. Thus, we conclude that in political subreddits, compatible newcomers are neither born nor made– they make local adjustments on their own.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7323",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7323/7177",
-    "citations": 92
+    "citations": 93
   },
   {
     "title": "Beyond the eye-catchers: A large-scale study of social movement organizations’ involvement in online protests",
@@ -617,7 +617,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/3134754",
     "eprint_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/138122/4/a119-zhang.pdf",
-    "citations": 40
+    "citations": 41
   },
   {
     "title": "Shocking the Crowd: The Effect of Censorship Shocks on Chinese Wikipedia",
@@ -637,7 +637,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/3134662",
     "eprint_url": "",
-    "citations": 7
+    "citations": 9
   },
   {
     "title": "Fair and Balanced? Quantifying Media Bias through Crowdsourced Content Analysis",
@@ -647,7 +647,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1093/POQ/NFW007",
     "eprint_url": "",
-    "citations": 319
+    "citations": 322
   },
   {
     "title": "From Local Popularity to Global Influence: A Computationally Effective Heuristic for Influence Maximization",
@@ -807,7 +807,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/1963405.1963499",
     "eprint_url": "",
-    "citations": 884
+    "citations": 885
   },
   {
     "title": "Structural Trend Analysis for Online Social Networks",
