@@ -237,7 +237,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1007/s10994-022-06176-x",
     "eprint_url": "https://link.springer.com/content/pdf/10.1007/s10994-022-06176-x.pdf",
-    "citations": 19
+    "citations": 21
   },
   {
     "title": "Modeling Framing in Immigration Discourse on Social Media",
@@ -247,7 +247,7 @@
     "abstract": "The framing of political issues can influence policy and public opinion. Even though the public plays a key role in creating and spreading frames, little is known about how ordinary people on social media frame political issues. By creating a new dataset of immigration-related tweets labeled for multiple framing typologies from political communication theory, we develop supervised models to detect frames. We demonstrate how users’ ideology and region impact framing choices, and how a message’s framing influences audience responses. We find that the more commonly-used issue-generic frames obscure important ideological and regional patterns that are only revealed by immigration-specific frames. Furthermore, frames oriented towards human interests, culture, and politics are associated with higher user engagement. This large-scale analysis of a complex social and linguistic phenomenon contributes to both NLP and social science research.",
     "url": "https://doi.org/10.18653/v1/2021.naacl-main.179",
     "eprint_url": "https://aclanthology.org/2021.naacl-main.179.pdf",
-    "citations": 91
+    "citations": 92
   },
   {
     "title": "COVID-19 Coverage By Cable and Broadcast Networks",
@@ -327,7 +327,7 @@
     "abstract": "The convergence of methods and relevant theories between computer scientists and social scientists is a necessary condition for leveraging social media data to understand this increasingly important window into human societies. This paper focuses on issues of data acquisition, sampling, and data preparation. These topics incorporate data collection methods, sampling strategies, population mismatch adjustments, and other data acquisition and data preparation decisions.",
     "url": "https://doi.org/10.31234/OSF.IO/K6VYJ",
     "eprint_url": "",
-    "citations": 16
+    "citations": 17
   },
   {
     "title": "Modeling Considerations for Quantitative Social Science Research Using Social Media Data",
@@ -357,7 +357,7 @@
     "abstract": "Low-dimensional vector-space representations of academic periodicals reveal insights into their complex relationships. Understanding the structure of knowledge domains is one of the foundational challenges in the science of science. Here, we propose a neural embedding technique that leverages the information contained in the citation network to obtain continuous vector representations of scientific periodicals. We demonstrate that our periodical embeddings encode nuanced relationships between periodicals and the complex disciplinary and interdisciplinary structure of science, allowing us to make cross-disciplinary analogies between periodicals. Furthermore, we show that the embeddings capture meaningful “axes” that encompass knowledge domains, such as an axis from “soft” to “hard” sciences or from “social” to “biological” sciences, which allow us to quantitatively ground periodicals on a given dimension. By offering novel quantification in the science of science, our framework may, in turn, facilitate the study of how knowledge is created and organized.",
     "url": "https://doi.org/10.1126/sciadv.abb9004",
     "eprint_url": "https://www.science.org/doi/pdf/10.1126/sciadv.abb9004?download=true",
-    "citations": 67
+    "citations": 68
   },
   {
     "title": "Market Forces: Quantifying the Role of Top Credible Ad Servers in the Fake News Ecosystem",
@@ -387,7 +387,7 @@
     "abstract": "This article investigates the prevalence of high and low quality URLs shared on Twitter when users discuss COVID-19. We distinguish between high quality health sources, traditional news sources, and low quality misinformation sources. We find that misinformation, in terms of tweets containing URLs from low quality misinformation websites, is shared at a higher rate than tweets containing URLs on high quality health information websites. However, both are a relatively small proportion of the overall conversation. In contrast, news sources are shared at a much higher rate. These findings lead us to analyze the network created by the URLs referenced on the webpages shared by Twitter users. When looking at the combined network formed by all three of the source types, we find that the high quality health information network, the low quality misinformation network, and the news information network are all well connected with a clear community structure. While high and low quality sites do have connections to each other, the connections to and from news sources are more common, highlighting the central brokerage role news sources play in this information ecosystem. Our findings suggest that while low quality URLs are not extensively shared in the COVID-19 Twitter conversation, a well connected community of low quality COVID-19 related information has emerged on the web, and both health and news sources are connecting to this community.",
     "url": "https://doi.org/10.1007/s42001-020-00093-6",
     "eprint_url": "https://link.springer.com/content/pdf/10.1007/s42001-020-00093-6.pdf",
-    "citations": 63
+    "citations": 64
   },
   {
     "title": "Quick, Community-Specific Learning: How Distinctive Toxicity Norms Are Maintained in Political Subreddits",
@@ -417,7 +417,7 @@
     "abstract": "Harnessing social media data for social science research entails creating measures out of the largely unstructured, noisy data that users generate on different platforms. This harnessing, particularly of data at scale, requires using methods developed in computer science. But it also typically requires integrating these methods with assessments of measurement quality along social science criteria -- reliability, validity and unbiasedness. In this paper, we outline measurement issues that arise when using social media data. We show examples of how to construct measures and discuss different measurement considerations and best practices. We conclude with a discussion of ways to accelerate research in this space, highlighting contributions that can be made by both social scientists and computer scientists.",
     "url": "https://doi.org/10.31234/osf.io/ga6nc",
     "eprint_url": "https://psyarxiv.com/ga6nc/download",
-    "citations": 5
+    "citations": 6
   },
   {
     "title": "Higher Ground? How Groundtruth Labeling Impacts Our Understanding of Fake News about the 2016 U.S. Presidential Nominees",
@@ -447,7 +447,7 @@
     "abstract": "Social media provides a rich amount of data on the everyday lives, opinions, thoughts, beliefs, and behaviors of individuals and organizations in near real-time. Leveraging these data effectively and responsibly should therefore improve our ability to understand political, psychological, economic, and sociological behaviors and opinions across time. This article is the first in a series of white papers that will provide a summary of the discussions derived from meetings of social scientists and computer scientists with the goal of creating consensus for how social and computer science could converge to answer important questions about complex human behaviors and dynamics using social media data. We present three basic research designs that are commonly used in social science and are applicable to research using social media data: qualitative observation, experiments, and surveys. We also discuss a fourth design that is primarily informed by computer science, non-designed data, but that can inform social science research. After a brief discussion of the general approach of these designs and their applicability for use with social media data, we discuss the challenges associated with their use with social media data and potential solutions for “convergence” of these methods for future quantitative research in the social sciences.",
     "url": "https://doi.org/10.31234/osf.io/zp8q2",
     "eprint_url": "https://doi.org/10.31234/osf.io/zp8q2",
-    "citations": 8
+    "citations": 9
   },
   {
     "title": "Toward a Better Performance Evaluation Framework for Fake News Classification",
@@ -477,7 +477,7 @@
     "abstract": "Since December 2019, COVID-19 has been spreading rapidly across the world. Not surprisingly, conversation about COVID-19 is also increasing. This article is a first look at the amount of conversation taking place on social media, specifically Twitter, with respect to COVID-19, the themes of discussion, where the discussion is emerging from, myths shared about the virus, and how much of it is connected to other high and low quality information on the Internet through shared URL links. Our preliminary findings suggest that a meaningful spatio-temporal relationship exists between information flow and new cases of COVID-19, and while discussions about myths and links to poor quality information exist, their presence is less dominant than other crisis specific themes. This research is a first step toward understanding social media conversation about COVID-19.",
     "url": "https://arxiv.org/abs/2003.13907",
     "eprint_url": "",
-    "citations": 310
+    "citations": 314
   },
   {
     "title": "The shape of educational inequality",
@@ -807,7 +807,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/1963405.1963499",
     "eprint_url": "",
-    "citations": 885
+    "citations": 886
   },
   {
     "title": "Structural Trend Analysis for Online Social Networks",
