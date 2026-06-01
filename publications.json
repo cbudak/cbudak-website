@@ -177,7 +177,7 @@
     "abstract": "Past work has explored various ways for online platforms to leverage crowd wisdom for misinformation detection and moderation. Yet, platforms often relegate governance to their communities, and limited research has been done from the perspective of these communities and their moderators. How is misinformation currently moderated in online communities that are heavily self-governed? What role does the crowd play in this process, and how can this process be improved? In this study, we answer these questions through semi-structured interviews with Reddit moderators. We focus on a case study of COVID-19 misinformation. First, our analysis identifies a general moderation workflow model encompassing various processes participants use for handling COVID-19 misinformation. Further, we show that the moderation workflow revolves around three elements: content facticity, user intent, and perceived harm. Next, our interviews reveal that Reddit moderators rely on two types of crowd wisdom for misinformation detection. Almost all participants are heavily reliant on reports from crowds of ordinary users to identify potential misinformation. A second crowd--participants' own moderation teams and expert moderators of other communities--provide support when participants encounter difficult, ambiguous cases. Finally, we use design probes to better understand how different types of crowd signals---from ordinary users and moderators---readily available on Reddit can assist moderators with identifying misinformation. We observe that nearly half of all participants preferred these cues over labels from expert fact-checkers because these cues can help them discern user intent. Additionally, a quarter of the participants distrust professional fact-checkers, raising important concerns about misinformation moderation.",
     "url": "https://doi.org/10.1145/3579631",
     "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3579631",
-    "citations": 25
+    "citations": 26
   },
   {
     "title": "The Stability of Cable and Broadcast News Intermedia Agenda Setting Across the COVID-19 Issue Attention Cycle",
@@ -227,7 +227,7 @@
     "abstract": "Political and social scientists have been relying extensively on keywords such as hashtags to mine social movement data from social media sites, particularly Twitter. Yet, prior work demonstrates that unrepresentative keyword sets can lead to flawed research conclusions. Numerous keyword expansion methods have been proposed to increase the comprehensiveness of keywords, but systematic evaluations of these methods have been lacking. Our paper fills this gap. We evaluate five diverse keyword expansion techniques (or pipelines) on five representative social movements across two distinct activity levels. Our results guide researchers who aim to use social media keyword searches to mine data. For instance, we show that word embedding-based methods significantly outperform other even more complex and newer approaches when movements are in normal activity periods. These methods are also less computationally intensive. More importantly, we also observe that no single pipeline can identify little more than half of all movement-related tweets when these movements are at their peak mobilization period offline. However, coverage can increase significantly when more than one pipeline is used. This is true even when the pipelines are selected at random.",
     "url": "https://doi.org/10.1140/epjds/s13688-022-00343-9",
     "eprint_url": "https://epjdatascience.springeropen.com/track/pdf/10.1140/epjds/s13688-022-00343-9",
-    "citations": 17
+    "citations": 18
   },
   {
     "title": "Traditional and context-specific spam detection in low resource settings",
@@ -267,7 +267,7 @@
     "abstract": "Research on online political communication has primarily focused on content in explicitly political spaces. In this work, we set out to determine the amount of political talk missed using this approach. Focusing on Reddit, we estimate that nearly half of all political talk takes place in subreddits that host political content less than 25% of the time. In other words, cumulatively, political talk in non-political spaces is abundant. We further examine the nature of political talk and show that political conversations are less toxic in non-political subreddits. Indeed, the average toxicity of political comments replying to a out-partisan in non-political subreddits is less than even the toxicity of co-partisan replies in explicitly political subreddits.",
     "url": "https://doi.org/10.1609/icwsm.v15i1.18081",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18081/17884",
-    "citations": 41
+    "citations": 42
   },
   {
     "title": "Better Crowdcoding: Strategies for Promoting Accuracy in Crowdsourced Content Analysis",
@@ -357,7 +357,7 @@
     "abstract": "Low-dimensional vector-space representations of academic periodicals reveal insights into their complex relationships. Understanding the structure of knowledge domains is one of the foundational challenges in the science of science. Here, we propose a neural embedding technique that leverages the information contained in the citation network to obtain continuous vector representations of scientific periodicals. We demonstrate that our periodical embeddings encode nuanced relationships between periodicals and the complex disciplinary and interdisciplinary structure of science, allowing us to make cross-disciplinary analogies between periodicals. Furthermore, we show that the embeddings capture meaningful “axes” that encompass knowledge domains, such as an axis from “soft” to “hard” sciences or from “social” to “biological” sciences, which allow us to quantitatively ground periodicals on a given dimension. By offering novel quantification in the science of science, our framework may, in turn, facilitate the study of how knowledge is created and organized.",
     "url": "https://doi.org/10.1126/sciadv.abb9004",
     "eprint_url": "https://www.science.org/doi/pdf/10.1126/sciadv.abb9004?download=true",
-    "citations": 68
+    "citations": 70
   },
   {
     "title": "Market Forces: Quantifying the Role of Top Credible Ad Servers in the Fake News Ecosystem",
@@ -397,7 +397,7 @@
     "abstract": "Online communities about similar topics may maintain very different norms of interaction. Past research identifies many processes that contribute to maintaining stable norms, including self-selection, pre-entry learning, post-entry learning, and retention. We analyzed political subreddits that had distinctive, stable levels of toxic comments on Reddit, in order to identify the relative contribution of these four processes. Surprisingly, we find that the largest source of norm stability is pre-entry learning. That is, newcomers' first comments in these distinctive subreddits differ from those same people's prior behavior in other subreddits. Through this adjustment, they nearly match the toxicity level of the subreddit they are joining. We also show that behavior adjustments are community-specific and not broadly transformative. That is, people continue to post toxic comments at their previous rates in other political subreddits. Thus, we conclude that in political subreddits, compatible newcomers are neither born nor made– they make local adjustments on their own.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7323",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7323/7177",
-    "citations": 93
+    "citations": 94
   },
   {
     "title": "Beyond the eye-catchers: A large-scale study of social movement organizations’ involvement in online protests",
@@ -487,7 +487,7 @@
     "abstract": "The ability of community college students to be successful is conceptualized, measured, and shown to be exponentially distributed. Hundreds of thousands of students drop out of school each year in the United States, despite billions of dollars of funding and myriad educational reforms. Existing research tends to look at the effect of easily measurable student characteristics. However, a vast number of harder-to-measure student traits, skills, and resources affect educational success. We present a conceptual framework for the cumulative effect of all factors, which we call student capital. We develop a method for estimating student capital in groups of students and find that student capital is distributed exponentially in each of 140 cohorts of community college students. Students’ ability to be successful does not behave like standard tests of intelligence. Instead, it acts like a limited resource, distributed unequally. The results suggest that rather than removing barriers related to easily measured characteristics, interventions should be focused on building up the skills and resources needed to be successful in school.",
     "url": "https://doi.org/10.1126/sciadv.aaz5954",
     "eprint_url": "https://www.science.org/doi/pdf/10.1126/sciadv.aaz5954?download=true",
-    "citations": 8
+    "citations": 9
   },
   {
     "title": "Herding a Deluge of Good Samaritans: How GitHub Projects Respond to Increased Attention",
@@ -617,7 +617,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/3134754",
     "eprint_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/138122/4/a119-zhang.pdf",
-    "citations": 41
+    "citations": 42
   },
   {
     "title": "Shocking the Crowd: The Effect of Censorship Shocks on Chinese Wikipedia",
@@ -627,7 +627,7 @@
     "abstract": "\n \n Collaborative crowdsourcing has become a popular approach to organizing work across the globe. Being global also means being vulnerable to shocks — unforeseen events that disrupt crowds — that originate from any country. In this study, we examine changes in collaborative behavior of editors of Chinese Wikipedia that arise due to the 2005 government censorship in mainland China. Using the exogenous variation in the fraction of editors blocked across different articles due to the censorship, we examine the impact of reduction in group size, which we denote as the shock level, on three collaborative behavior measures: volume of activity, centralization, and conflict. We find that activity and conflict drop on articles that face a shock, whereas centralization increases. The impact of a shock on activity increases with shock level, whereas the impact on centralization and conflict is higher for moderate shock levels than for very small or very high shock levels. These findings provide support for threat rigidity theory — originally introduced in the organizational theory literature — in the context of large-scale collaborative crowds.\n \n",
     "url": "https://doi.org/10.1609/icwsm.v11i1.14895",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/14895/14745",
-    "citations": 17
+    "citations": 18
   },
   {
     "title": "Threading is Sticky",
@@ -797,7 +797,7 @@
     "abstract": "",
     "url": "https://doi.org/10.14778/3402755.3402811",
     "eprint_url": "",
-    "citations": 33
+    "citations": 34
   },
   {
     "title": "Limiting the spread of misinformation in social networks",
@@ -807,7 +807,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/1963405.1963499",
     "eprint_url": "",
-    "citations": 886
+    "citations": 892
   },
   {
     "title": "Structural Trend Analysis for Online Social Networks",
