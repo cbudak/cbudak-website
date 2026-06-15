@@ -187,7 +187,7 @@
     "abstract": "ABSTRACT In today’s fragmented media environment, it is unclear whether the correspondence between media agendas that characterizes intermedia agenda setting persists. Through a combination of manual and computerized content analysis of 486,068 paragraphs of COVID−19 coverage across 4,589 cable and broadcast news transcripts, we analyze second and third-level attribute agenda setting, both in terms of central themes and aspects. Through the lens of the issue attention cycle, we assess whether relationships among media agendas change over time. The results show that even in a fragmented media environment, there is considerable evidence of intermedia agenda setting. The attribute agendas were largely similar across outlets despite the similarity slightly decreasing over time. The findings suggest that there was only modest evidence for the prominent perception of fragmented coverage for cable and broadcast news networks’ attribute agendas concerning the COVID−19 pandemic.",
     "url": "https://doi.org/10.1080/10584609.2023.2222382",
     "eprint_url": "",
-    "citations": 6
+    "citations": 7
   },
   {
     "title": "Bursts of contemporaneous publication among high- and low-credibility online information providers",
@@ -247,7 +247,7 @@
     "abstract": "The framing of political issues can influence policy and public opinion. Even though the public plays a key role in creating and spreading frames, little is known about how ordinary people on social media frame political issues. By creating a new dataset of immigration-related tweets labeled for multiple framing typologies from political communication theory, we develop supervised models to detect frames. We demonstrate how users’ ideology and region impact framing choices, and how a message’s framing influences audience responses. We find that the more commonly-used issue-generic frames obscure important ideological and regional patterns that are only revealed by immigration-specific frames. Furthermore, frames oriented towards human interests, culture, and politics are associated with higher user engagement. This large-scale analysis of a complex social and linguistic phenomenon contributes to both NLP and social science research.",
     "url": "https://doi.org/10.18653/v1/2021.naacl-main.179",
     "eprint_url": "https://aclanthology.org/2021.naacl-main.179.pdf",
-    "citations": 92
+    "citations": 94
   },
   {
     "title": "COVID-19 Coverage By Cable and Broadcast Networks",
@@ -457,7 +457,7 @@
     "abstract": "The rising prevalence of fake news and its alarming downstream impact have motivated both the industry and academia to build a substantial number of fake news classification models, each with its unique architecture. Yet, the research community currently lacks a comprehensive model evaluation framework that can provide multifaceted comparisons between these models beyond the simple evaluation metrics such as accuracy or f1 scores. In our work, we examine a representative subset of classifiers using a very simple set of performance evaluation and error analysis steps. We demonstrate that model performance varies considerably based on i) dataset, ii) evaluation archetype, and iii) performance metrics. Additionally, classifiers also demonstrate a potential bias against small and conservative-leaning credible news sites. Finally, models' performance varies based on external events and article topics. In sum, our results highlight the need to move toward systematic benchmarking.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7279",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7279/7133",
-    "citations": 64
+    "citations": 65
   },
   {
     "title": "USApp – American Politics and Policy Blog: Real-time analysis shows that the first debate shifted attitudes among Twitter users towards Biden and the second solidified them",
@@ -647,7 +647,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1093/POQ/NFW007",
     "eprint_url": "",
-    "citations": 322
+    "citations": 324
   },
   {
     "title": "From Local Popularity to Global Influence: A Computationally Effective Heuristic for Influence Maximization",
@@ -687,7 +687,7 @@
     "abstract": "",
     "url": "https://doi.org/10.2139/SSRN.2610055",
     "eprint_url": "",
-    "citations": 56
+    "citations": 57
   },
   {
     "title": "Big Data in Online Social Networks: User Interaction Analysis to Model User Behavior in Social Networks",
@@ -807,7 +807,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/1963405.1963499",
     "eprint_url": "",
-    "citations": 892
+    "citations": 893
   },
   {
     "title": "Structural Trend Analysis for Online Social Networks",
