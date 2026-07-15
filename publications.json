@@ -6,7 +6,7 @@
     "year": "2026",
     "abstract": "Social movements employ various strategies to disseminate information, build support for their cause, and mobilize masses to take specific actions. One key tactical tool is framing. We utilize grounded theory to identify narrative, motivational, and issue-specific topical frames used in a digital networked public propagated by Hindu right-wing groups using #HindusUnderAttack on Twitter. We leverage pre-trained, finetuned RoBERTa models to identify the occurrence of each frame in the corpus. Relying on past works on the Hindutva movement, we build three hypotheses rooted in the use of motivational frames (i.e. calls to action). Our findings illustrate three critical insights into framing around #HindusUnderAttack: 1) politically aligned users deployed the motivational frame more frequently, 2) tweets about Bangladesh are more likely to contain motivational framing, and 3) motivational framing is associated with higher audience engagement through retweets. We also report important patterns of frame combinations. Finally, we situate our findings in the political economy of the region and extant literature of digital publics around the world.",
     "url": "https://doi.org/10.1609/icwsm.v20i1.42720",
-    "eprint_url": "",
+    "eprint_url": "https://doi.org/10.1609/icwsm.v20i1.42720",
     "citations": 0
   },
   {
@@ -17,7 +17,7 @@
     "abstract": "We report the first direct comparisons of multiple alternative social media algorithms on multiple platforms on outcomes of societal interest. We used a browser extension to modify which posts were shown to desktop social media users, randomly assigning 9,386 users to a control group or one of five alternative ranking algorithms which simultaneously altered content across three platforms for six months during the US 2024 presidential election. This reduced our preregistered index of affective polarization by an average of 0.03 standard deviations (p<0.05), including a 1.5 degree decrease in differences between the 100 point inparty and outparty feeling thermometers. We saw reductions in active use time for Facebook (-0.37 min/day) and Reddit (-0.2 min/day), but an increase of 0.32 min/day (p<0.01) for X/Twitter. We saw an increase in reports of negative social media experiences but found no effects on well-being, news knowledge, outgroup empathy, perceptions of and support for partisan violence. This implies that bridging content can improve some societal outcomes without necessarily conflicting with the engagement-driven business model of social media.",
     "url": "https://doi.org/10.48550/arXiv.2603.19626",
     "eprint_url": "",
-    "citations": 3
+    "citations": 4
   },
   {
     "title": "Outsourcing an Information Operation: A Complete Dataset of Tenet Media's Podcasts on Rumble",
@@ -27,6 +27,16 @@
     "abstract": "Tenet Media, a U.S.-based, right-wing media company, hired six established podcasters to create content related to U.S. politics and culture during the 2024 U.S. presidential election cycle. After publishing content on YouTube and Rumble for nearly a year, Tenet Media was declared by the U.S. government to be funded entirely by Russia -- making it effectively an outsourced state-sponsored information operation (SSIO). We present a complete dataset of the 560 podcast videos published by the Tenet Media channel on the video-sharing platform Rumble between November 2023 and September 2024. Our dataset includes video metadata and user comments, as well as high-quality video transcriptions, representing over 300 hours of video content. This dataset provides researchers with material to study a Russian SSIO, and notably on Rumble, which is an understudied platform in SSIO scholarship.",
     "url": "https://doi.org/10.48550/arXiv.2503.19802",
     "eprint_url": "",
+    "citations": 0
+  },
+  {
+    "title": "GEÇMİŞTEN GÜNÜMÜZE SİYONİZM İDEOLOJİSİ",
+    "authors": "Ceren Budak",
+    "venue": "The Journal of Academic Social Science Studies",
+    "year": "2025",
+    "abstract": "",
+    "url": "https://doi.org/10.29228/jasss.87370",
+    "eprint_url": "https://jasstudies.com/files/jass_makaleler/7d4e05c5-3e03-41cc-a437-86ee2123a72e.pdf",
     "citations": 0
   },
   {
@@ -76,8 +86,8 @@
     "year": "2024",
     "abstract": "How do Wikipedians maintain an accurate encyclopedia during an ongoing geopolitical conflict where state actors might seek to spread disinformation or conduct an information operation? In the context of the Russia-Ukraine War, this question becomes more pressing, given the Russian government's extensive history of orchestrating information campaigns. We conducted an interview study with 13 expert Wikipedians involved in the Russo-Ukrainian War topic area on the English-language edition of Wikipedia. While our participants did not perceive there to be clear evidence of a state-backed information operation, they agreed that war-related articles experienced high levels of disruptive editing from both Russia-aligned and Ukraine-aligned accounts. The English-language edition of Wikipedia had existing policies and processes at its disposal to counter such disruption. State-backed or not, the disruptive activity created time-intensive maintenance work for our participants. Finally, participants considered English-language Wikipedia to be more resilient than social media in preventing the spread of false information online. We conclude by discussing sociotechnical implications for Wikipedia and social platforms.",
     "url": "https://doi.org/10.1145/3711107",
-    "eprint_url": "",
-    "citations": 3
+    "eprint_url": "https://doi.org/10.1145/3711107",
+    "citations": 4
   },
   {
     "title": "Intermedia Agenda Setting during the 2016 and 2020 U.S. Presidential Elections",
@@ -96,7 +106,7 @@
     "year": "2024",
     "abstract": "Large language models (LLMs) are trained on broad corpora and then used in communities with specialized norms and rules. But can LLMs apply community rules well enough to follow these norms? We evaluate LLMs’ capacity to detect (Task 1) and correct (Task 2) biased Wikipedia edits according to Wikipedia’s Neutral Point of View (NPOV) policy. LLMs struggled with bias detection, achieving only 64% accuracy on a balanced dataset. Models exhibited contrasting biases (some under- and others over-predicted bias), suggesting distinct priors about neutrality. LLMs performed better at bias correction, removing 79% of words removed by Wikipedia editors. However, LLMs made additional changes beyond Wikipedia editors’ simpler neutralizations, resulting in high-recall but low-precision editing. Interestingly, crowd-workers rated AI rewrites as more neutral (70%) and fluent- sounding (61%) than Wikipedia-editor rewrites. Qualitative analysis found that LLMs sometimes applied NPOV more comprehensively than Wikipedia editors but often made extraneous non-NPOV-related changes (e.g., grammar). LLMs may apply rules in ways that resonate with the public, but diverge from community experts. While potentially effective for generation, LLMs may reduce editor agency and increase moderation workload (e.g., verifying additions). Even when rules are easy to articulate, having LLMs apply them like community members may still be difficult.",
     "url": "https://doi.org/10.1609/icwsm.v20i1.42630",
-    "eprint_url": "",
+    "eprint_url": "https://doi.org/10.1609/icwsm.v20i1.42630",
     "citations": 15
   },
   {
@@ -107,7 +117,7 @@
     "abstract": "Social media enables activists to directly communicate with the public and provides a space for movement leaders, participants, bystanders, and opponents to collectively construct and contest narratives. Focusing on Twitter messages from social movements surrounding three issues in 2018-2019 (guns, immigration, and LGBTQ rights), we create a codebook, annotated dataset, and computational models to detect diagnostic (problem identification and attribution), prognostic (proposed solutions and tactics), and motivational (calls to action) framing strategies. We conduct an in-depth unsupervised linguistic analysis of each framing strategy, and uncover cross-movement similarities in associations between framing and linguistic features such as pronouns and deontic modal verbs. Finally, we compare framing strategies across issues and other social, cultural, and interactional contexts. For example, we show that diagnostic framing is more common in replies than original broadcast posts, and that social movement organizations focus much more on prognostic and motivational framing than journalists and ordinary citizens.",
     "url": "https://doi.org/10.51685/jqd.2024.icwsm.9",
     "eprint_url": "https://journalqd.org/article/download/5896/4515",
-    "citations": 18
+    "citations": 20
   },
   {
     "title": "Misunderstanding the harms of online misinformation",
@@ -117,7 +127,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1038/s41586-024-07417-w",
     "eprint_url": "",
-    "citations": 108
+    "citations": 112
   },
   {
     "title": "Understanding the rationales and information environments for early, late, and nonadopters of the COVID-19 vaccine",
@@ -136,8 +146,8 @@
     "year": "2024",
     "abstract": "Exposure to large language model output is rapidly increasing. How will seeing AI-generated ideas affect human ideas? We conducted a dynamic experiment (800+ participants, 40+ countries) where participants viewed creative ideas that were from ChatGPT or prior experimental participants, and then brainstormed their own idea. We varied the number of AI-generated examples (none, low, or high exposure) and if the examples were labeled as “AI” (disclosure). We find that high AI exposure (but not low AI exposure) did not affect the creativity of individual ideas but did increase the average amount and rate of change of collective idea diversity. AI made ideas different, not better. There were no main effects of disclosure. We also found that self-reported creative people were less influenced by knowing an idea was from AI and that participants may knowingly adopt AI ideas when the task is difficult. Our findings suggest that introducing AI ideas may increase collective diversity but not individual creativity.",
     "url": "https://doi.org/10.1145/3715928.3737481",
-    "eprint_url": "",
-    "citations": 41
+    "eprint_url": "https://doi.org/10.1145/3715928.3737481",
+    "citations": 44
   },
   {
     "title": "The Dynamics of (Not) Unfollowing Misinformation Spreaders",
@@ -156,8 +166,8 @@
     "year": "2024",
     "abstract": "Recent debates raised concerns that language models may favor certain viewpoints. But what if the solution is not to aim for a “view from nowhere” but rather to leverage different viewpoints? We introduce Plurals, a system and Python library for pluralistic AI deliberation. Plurals consists of Agents (LLMs, optionally with personas) which deliberate within customizable Structures, with Moderators overseeing deliberation. Plurals is a generator of simulated social ensembles. Plurals integrates with government datasets to create nationally representative personas, includes deliberation templates inspired by deliberative democracy, and allows users to customize both information-sharing structures and deliberation behavior within Structures. Six case studies demonstrate fidelity to theoretical constructs and efficacy. Three randomized experiments show simulated focus groups produced output resonant with an online sample of the relevant audiences (chosen over zero-shot generation in 75% of trials). Plurals is both a paradigm and a concrete system for pluralistic AI.",
     "url": "https://doi.org/10.1145/3706598.3713675",
-    "eprint_url": "",
-    "citations": 18
+    "eprint_url": "https://doi.org/10.1145/3706598.3713675",
+    "citations": 19
   },
   {
     "title": "Social media and adolescent health",
@@ -287,7 +297,7 @@
     "abstract": "Research on online political communication has primarily focused on content in explicitly political spaces. In this work, we set out to determine the amount of political talk missed using this approach. Focusing on Reddit, we estimate that nearly half of all political talk takes place in subreddits that host political content less than 25% of the time. In other words, cumulatively, political talk in non-political spaces is abundant. We further examine the nature of political talk and show that political conversations are less toxic in non-political subreddits. Indeed, the average toxicity of political comments replying to a out-partisan in non-political subreddits is less than even the toxicity of co-partisan replies in explicitly political subreddits.",
     "url": "https://doi.org/10.1609/icwsm.v15i1.18081",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18081/17884",
-    "citations": 42
+    "citations": 43
   },
   {
     "title": "Better Crowdcoding: Strategies for Promoting Accuracy in Crowdsourced Content Analysis",
@@ -317,7 +327,7 @@
     "abstract": "While cross-partisan conversations are central to a vibrant deliberative democracy, these conversations are hard to have, especially amidst unprecedented levels of partisan animosity we observe today. We report on a qualitative study of 17 US residents who engage with outpartisans on Reddit to understand what they look for in these interactions, and the strategies they adopt. We find that users have multiple, sometimes contradictory expectations of these conversations, ranging from deliberative discussions to entertainment and banter. In aiming to foster 'good' cross-partisan discussions, users make strategic choices on which subreddits to participate in, who to engage with and how to talk to outpartisans, often establishing common ground, complimenting, and remaining dispassionate in their interactions. Further, contrary to offline settings where knowing more about outpartisan interlocutors help manage disagreements, on Reddit, users look to actively learn as little as possible about them for fear that such information may bias their interactions. However, through design probes, we find that users are actually open to knowing certain kinds of information about their interlocutors, such as non-political subreddits that they both participate in, and to having that information made visible to their interlocutors. However, making other information visible, such as the other subreddits that they participate in or their past comments, though potentially humanizing, raises concerns around privacy and misuse of that information for personal attacks especially among women and minority groups. Finally, we identify important challenges and opportunities in designing to improve online cross-partisan interactions in today's hyper-polarized environment.",
     "url": "https://doi.org/10.1145/3479537",
     "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3479537",
-    "citations": 9
+    "citations": 11
   },
   {
     "title": "An Analysis of the Partnership between Retailers and Low-credibility News Publishers",
@@ -346,7 +356,7 @@
     "year": "2021",
     "abstract": "The convergence of methods and relevant theories between computer scientists and social scientists is a necessary condition for leveraging social media data to understand this increasingly important window into human societies. This paper focuses on issues of data acquisition, sampling, and data preparation. These topics incorporate data collection methods, sampling strategies, population mismatch adjustments, and other data acquisition and data preparation decisions.",
     "url": "https://doi.org/10.31234/OSF.IO/K6VYJ",
-    "eprint_url": "",
+    "eprint_url": "https://psyarxiv.com/k6vyj/download",
     "citations": 17
   },
   {
@@ -376,7 +386,7 @@
     "year": "2020",
     "abstract": "In this paper, the fourth in a series of white papers, we provide a summary of the discussions and future directions that came from the topical meeting that focused on model construction with social media data. A particularly interesting aspect of this meeting was, in our view, discussion of the different disciplines’ requirements and approaches to modeling and the different considerations that are used to assess model fit.",
     "url": "https://doi.org/10.31234/OSF.IO/3E2UX",
-    "eprint_url": "",
+    "eprint_url": "https://psyarxiv.com/3e2ux/download",
     "citations": 0
   },
   {
@@ -427,7 +437,7 @@
     "abstract": "Online communities about similar topics may maintain very different norms of interaction. Past research identifies many processes that contribute to maintaining stable norms, including self-selection, pre-entry learning, post-entry learning, and retention. We analyzed political subreddits that had distinctive, stable levels of toxic comments on Reddit, in order to identify the relative contribution of these four processes. Surprisingly, we find that the largest source of norm stability is pre-entry learning. That is, newcomers' first comments in these distinctive subreddits differ from those same people's prior behavior in other subreddits. Through this adjustment, they nearly match the toxicity level of the subreddit they are joining. We also show that behavior adjustments are community-specific and not broadly transformative. That is, people continue to post toxic comments at their previous rates in other political subreddits. Thus, we conclude that in political subreddits, compatible newcomers are neither born nor made– they make local adjustments on their own.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7323",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7323/7177",
-    "citations": 95
+    "citations": 96
   },
   {
     "title": "Beyond the eye-catchers: A large-scale study of social movement organizations’ involvement in online protests",
@@ -476,7 +486,7 @@
     "year": "2020",
     "abstract": "Social media provides a rich amount of data on the everyday lives, opinions, thoughts, beliefs, and behaviors of individuals and organizations in near real-time. Leveraging these data effectively and responsibly should therefore improve our ability to understand political, psychological, economic, and sociological behaviors and opinions across time. This article is the first in a series of white papers that will provide a summary of the discussions derived from meetings of social scientists and computer scientists with the goal of creating consensus for how social and computer science could converge to answer important questions about complex human behaviors and dynamics using social media data. We present three basic research designs that are commonly used in social science and are applicable to research using social media data: qualitative observation, experiments, and surveys. We also discuss a fourth design that is primarily informed by computer science, non-designed data, but that can inform social science research. After a brief discussion of the general approach of these designs and their applicability for use with social media data, we discuss the challenges associated with their use with social media data and potential solutions for “convergence” of these methods for future quantitative research in the social sciences.",
     "url": "https://doi.org/10.31234/osf.io/zp8q2",
-    "eprint_url": "https://doi.org/10.31234/osf.io/zp8q2",
+    "eprint_url": "https://psyarxiv.com/zp8q2/download",
     "citations": 9
   },
   {
@@ -517,7 +527,7 @@
     "abstract": "Since December 2019, COVID-19 has been spreading rapidly across the world. Not surprisingly, conversation about COVID-19 is also increasing. This article is a first look at the amount of conversation taking place on social media, specifically Twitter, with respect to COVID-19, the themes of discussion, where the discussion is emerging from, myths shared about the virus, and how much of it is connected to other high and low quality information on the Internet through shared URL links. Our preliminary findings suggest that a meaningful spatio-temporal relationship exists between information flow and new cases of COVID-19, and while discussions about myths and links to poor quality information exist, their presence is less dominant than other crisis specific themes. This research is a first step toward understanding social media conversation about COVID-19.",
     "url": "https://arxiv.org/abs/2003.13907",
     "eprint_url": "",
-    "citations": 315
+    "citations": 316
   },
   {
     "title": "The shape of educational inequality",
@@ -536,8 +546,8 @@
     "year": "2020",
     "abstract": "Collaborative crowdsourcing is a well-established model of work, especially in the case of open source software development. The structure and operation of these virtual and loosely-knit teams differ from traditional organizations. As such, little is known about how their behavior may change in response to an increase in external attention. To understand these dynamics, we analyze millions of actions of thousands of contributors in over 1100 open source software projects that topped the GitHub Trending Projects page and thus experienced a large increase in attention, in comparison to a control group of projects identified through propensity score matching. In carrying out our research, we use the lens of organizational change, which considers the challenges teams face during rapid growth and how they adapt their work routines, organizational structure, and management style. We show that trending results in an explosive growth in the effective team size. However, most newcomers make only shallow and transient contributions. In response, the original team transitions towards administrative roles, responding to requests and reviewing work done by newcomers. Projects evolve towards a more distributed coordination model with newcomers becoming more central, albeit in limited ways. Additionally, teams become more modular with subgroups specializing in different aspects of the project. We discuss broader implications for collaborative crowdsourcing teams that face attention shocks.",
     "url": "https://doi.org/10.1145/3366423.3380272",
-    "eprint_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/153786/1/Maldeniya%20et%20al.%202020.pdf",
-    "citations": 25
+    "eprint_url": "https://doi.org/10.1145/3366423.3380272",
+    "citations": 26
   },
   {
     "title": "Tackling misinformation: What researchers could do with social media data",
@@ -596,7 +606,7 @@
     "year": "2019",
     "abstract": "The spread of content produced by fake news publishers was one of the most discussed characteristics of the 2016 U.S. Presidential Election. Yet, little is known about the prevalence and focus of such content, how its prevalence changed over time, and how this prevalence related to important election dynamics. In this paper, we address these questions using tweets that mention the two presidential candidates sampled at the daily level, the news content mentioned in such tweets, and open-ended responses from nationally representative telephone interviews. The results of our analysis highlight various important lessons for news consumers and journalists. We find that (i.) traditional news producers outperformed fake news producers in aggregate, (ii.) the prevalence of content produced by fake news publishers increased over the course of the campaign-particularly among tweets that mentioned Clinton, and (iii.) changes in such prevalence were closely following changes in net Clinton favorability. Turning to content, we (iv.) identify similarities and differences in agenda setting by fake and traditional news media and show that (v.) information individuals most commonly reported to having read, seen or heard about the candidates was more closely aligned with content produced by fake news outlets than traditional news outlets, in particular for information Republican voters retained about Clinton. We also model fake-ness of retained information as a function of demographics characteristics. Implications for platform owners, news consumers, and journalists are discussed.",
     "url": "https://doi.org/10.1145/3308558.3313721",
-    "eprint_url": "",
+    "eprint_url": "https://doi.org/10.1145/3308558.3313721",
     "citations": 69
   },
   {
@@ -616,7 +626,7 @@
     "year": "2019",
     "abstract": "Online social movements (OSMs) play a key role in promoting democracy in modern society. Most online activism is largely driven by critical offline events. Among many studies investigating collective behavior in OSMs, few has explored the interaction between crowd dynamics and their offline context. Here, focusing on the Black Lives Matter OSM and utilizing an event-driven approach on a dataset of 36 million tweets and thousands of offline events, we study how different types of offline events-police violence and heightened protests-influence crowd behavior over time. We find that police violence events and protests play important roles in the recruitment process. Moreover, by analyzing the re-participation dynamics and patterns of social interactions, we find that, in the long term, users who joined the movement during police violence events and protests show significantly more commitment than those who joined during other times. However, users recruited during other times are more committed to the movement than the other two groups in the short term. Furthermore, we observe that social ties formed during police violence events are more likely to be sustained over time than those formed during other times. Contrarily, ties formed during protests are the least likely to be maintained. Altogether, our results shed light on the impact of bursting events on the recruitment, retention, and communication patterns of collective behavior in the Black Lives Matter OSM.",
     "url": "https://doi.org/10.1145/3308558.3313673",
-    "eprint_url": "",
+    "eprint_url": "https://doi.org/10.1145/3308558.3313673",
     "citations": 10
   },
   {
@@ -687,7 +697,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1093/POQ/NFW007",
     "eprint_url": "",
-    "citations": 326
+    "citations": 327
   },
   {
     "title": "From Local Popularity to Global Influence: A Computationally Effective Heuristic for Influence Maximization",
