@@ -17,7 +17,47 @@
     "abstract": "We report the first direct comparisons of multiple alternative social media algorithms on multiple platforms on outcomes of societal interest. We used a browser extension to modify which posts were shown to desktop social media users, randomly assigning 9,386 users to a control group or one of five alternative ranking algorithms which simultaneously altered content across three platforms for six months during the US 2024 presidential election. This reduced our preregistered index of affective polarization by an average of 0.03 standard deviations (p<0.05), including a 1.5 degree decrease in differences between the 100 point inparty and outparty feeling thermometers. We saw reductions in active use time for Facebook (-0.37 min/day) and Reddit (-0.2 min/day), but an increase of 0.32 min/day (p<0.01) for X/Twitter. We saw an increase in reports of negative social media experiences but found no effects on well-being, news knowledge, outgroup empathy, perceptions of and support for partisan violence. This implies that bridging content can improve some societal outcomes without necessarily conflicting with the engagement-driven business model of social media.",
     "url": "https://doi.org/10.48550/arXiv.2603.19626",
     "eprint_url": "",
-    "citations": 4
+    "citations": 6
+  },
+  {
+    "title": "American Presidential Campaigns in the Attention Economy",
+    "authors": "Ceren Budak, J. Ladd, Josh Pasek, Lisa Singh, Michael W. Traugott",
+    "venue": "",
+    "year": "2026",
+    "abstract": "In the social media era, people and organizations increasingly fight over the public's attention. This competition is especially intense in American presidential campaigns. As someone who used attention-grabbing strategies throughout his career, Donald Trump's communication skills were well suited to this environment. His campaigns illustrate the power and limits of attention-grabbing campaign tactics. While he successfully dominated the public's attention in his presidential campaigns, people consistently consumed more negative than positive information about him. Additionally, in this era, the campaign media system and the public continue to focus on incumbent performance, resisting efforts to change the subject. Finally, the editorial decisions that prestigious news outlets make about what to cover still seem to shape which stories people hear about in the crucial final weeks of the campaign. This title is also available as Open Access on Cambridge Core.",
+    "url": "https://doi.org/10.1017/9781047779982",
+    "eprint_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/64F2F14D69B3CC332CFB26D3B6AAA2CC/9781047779975AR.pdf/american-presidential-campaigns-in-the-attention-economy.pdf",
+    "citations": 0
+  },
+  {
+    "title": "Information Discernment in Large Language Models",
+    "authors": "Joshua Ashkinaze, Laura Kurek, Alina Faisal, Tongyuan Miao, Mariam Joseph, Ceren Budak, Eric Gilbert",
+    "venue": "",
+    "year": "2026",
+    "abstract": "LLMs are increasingly used with external knowledge sources like the internet. Do they weigh information appropriately -- updating more for reliable sources (source discernment) and more when claims bring priors closer to the truth (truth discernment)? We formalize this as information discernment and introduce Learn2Discern (L2D), an experimental framework and benchmark grounded in three normative axioms with interpretable metrics. To establish external validity, a pre-registered, quota-matched user study (n=299) confirms that real LLM users endorse all three axioms and report that violations reduce their trust and usage intent. Across 13 models and nearly 670K trials, we find consistent failures across both dimensions: models perform near chance on source and truth discernment, rely on source popularity twice as much as source reliability, and update roughly equally whether a claim improves or worsens their position relative to the ground truth. Models integrate external knowledge most effectively on datasets where their priors are already the most accurate. Newer and larger models improve truth discernment but not source discernment, a blind spot that model complexity does not address. We identify simple inference-time interventions that improve both forms of discernment. We release our dataset and survey as a testbed for a core alignment property that scales in importance as LLMs replace traditional search.",
+    "url": "https://arxiv.org/abs/2607.19355",
+    "eprint_url": "",
+    "citations": 1
+  },
+  {
+    "title": "Outsourcing an Information Operation: A Complete Dataset of Tenet Media's Podcasts on Rumble",
+    "authors": "Laura Kurek, Kevin Zheng, Eric Gilbert, Ceren Budak",
+    "venue": "arXiv.org",
+    "year": "2025",
+    "abstract": "Tenet Media, a U.S.-based, right-wing media company, hired six established podcasters to create content related to U.S. politics and culture during the 2024 U.S. presidential election cycle. After publishing content on YouTube and Rumble for nearly a year, Tenet Media was declared by the U.S. government to be funded entirely by Russia -- making it effectively an outsourced state-sponsored information operation (SSIO). We present a complete dataset of the 560 podcast videos published by the Tenet Media channel on the video-sharing platform Rumble between November 2023 and September 2024. Our dataset includes video metadata and user comments, as well as high-quality video transcriptions, representing over 300 hours of video content. This dataset provides researchers with material to study a Russian SSIO, and notably on Rumble, which is an understudied platform in SSIO scholarship.",
+    "url": "https://doi.org/10.48550/arXiv.2503.19802",
+    "eprint_url": "",
+    "citations": 0
+  },
+  {
+    "title": "GEÇMİŞTEN GÜNÜMÜZE SİYONİZM İDEOLOJİSİ",
+    "authors": "Ceren Budak",
+    "venue": "The Journal of Academic Social Science Studies",
+    "year": "2025",
+    "abstract": "",
+    "url": "https://doi.org/10.29228/jasss.87370",
+    "eprint_url": "https://jasstudies.com/files/jass_makaleler/7d4e05c5-3e03-41cc-a437-86ee2123a72e.pdf",
+    "citations": 0
   },
   {
     "title": "Framing Unionization on Facebook: Communication around Representation Elections in the United States",
@@ -47,17 +87,17 @@
     "abstract": "Metaphor, discussing one concept in terms of another, is abundant in politics and can shape how people understand important issues. We develop a computational approach to measure metaphorical language, focusing on immigration discourse on social media. Grounded in qualitative social science research, we identify seven concepts evoked in immigration discourse (e.g.\"water\"or\"vermin\"). We propose and evaluate a novel technique that leverages both word-level and document-level signals to measure metaphor with respect to these concepts. We then study the relationship between metaphor, political ideology, and user engagement in 400K US tweets about immigration. While conservatives tend to use dehumanizing metaphors more than liberals, this effect varies widely across concepts. Moreover, creature-related metaphor is associated with more retweets, especially for liberal authors. Our work highlights the potential for computational methods to complement qualitative approaches in understanding subtle and implicit language in political discourse.",
     "url": "https://doi.org/10.18653/v1/2025.acl-long.398",
     "eprint_url": "",
-    "citations": 6
+    "citations": 7
   },
   {
     "title": "Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences",
     "authors": "Joshua Ashkinaze, Hua Shen, S. Avula, Eric Gilbert, Ceren Budak",
-    "venue": "arXiv.org",
+    "venue": "Advances in Neural Information Processing Systems 38",
     "year": "2025",
     "abstract": "We introduce the Deep Value Benchmark (DVB), an evaluation framework that directly tests whether large language models (LLMs) learn fundamental human values or merely surface-level preferences. This distinction is critical for AI alignment: Systems that capture deeper values are likely to generalize human intentions robustly, while those that capture only superficial patterns in preference data risk producing misaligned behavior. The DVB uses a novel experimental design with controlled confounding between deep values (e.g., moral principles) and shallow features (e.g., superficial attributes). In the training phase, we expose LLMs to human preference data with deliberately correlated deep and shallow features -- for instance, where a user consistently prefers (non-maleficence, formal language) options over (justice, informal language) alternatives. The testing phase then breaks these correlations, presenting choices between (justice, formal language) and (non-maleficence, informal language) options. This design allows us to precisely measure a model's Deep Value Generalization Rate (DVGR) -- the probability of generalizing based on the underlying value rather than the shallow feature. Across 9 different models, the average DVGR is just 0.30. All models generalize deep values less than chance. Larger models have a (slightly) lower DVGR than smaller models. We are releasing our dataset, which was subject to three separate human validation experiments. DVB provides an interpretable measure of a core feature of alignment.",
     "url": "https://doi.org/10.48550/arXiv.2511.02109",
     "eprint_url": "",
-    "citations": 3
+    "citations": 5
   },
   {
     "title": "Wikipedia in Wartime: Experiences of Wikipedians Maintaining Articles About the Russia-Ukraine War",
@@ -66,8 +106,8 @@
     "year": "2024",
     "abstract": "How do Wikipedians maintain an accurate encyclopedia during an ongoing geopolitical conflict where state actors might seek to spread disinformation or conduct an information operation? In the context of the Russia-Ukraine War, this question becomes more pressing, given the Russian government's extensive history of orchestrating information campaigns. We conducted an interview study with 13 expert Wikipedians involved in the Russo-Ukrainian War topic area on the English-language edition of Wikipedia. While our participants did not perceive there to be clear evidence of a state-backed information operation, they agreed that war-related articles experienced high levels of disruptive editing from both Russia-aligned and Ukraine-aligned accounts. The English-language edition of Wikipedia had existing policies and processes at its disposal to counter such disruption. State-backed or not, the disruptive activity created time-intensive maintenance work for our participants. Finally, participants considered English-language Wikipedia to be more resilient than social media in preventing the spread of false information online. We conclude by discussing sociotechnical implications for Wikipedia and social platforms.",
     "url": "https://doi.org/10.1145/3711107",
-    "eprint_url": "https://doi.org/10.1145/3711107",
-    "citations": 4
+    "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3711107",
+    "citations": 7
   },
   {
     "title": "Intermedia Agenda Setting during the 2016 and 2020 U.S. Presidential Elections",
@@ -77,7 +117,7 @@
     "abstract": "Intermedia agenda setting (IAS) theory suggests that different news sources can influence each other's agenda. While this theory has been well-established in existing literature, whether it still holds in today's high-choice media environment, which includes news producers of different credibility and ideology dispositions, is an open question. Through two case studies--the 2016 and 2020 U.S. presidential elections--we show that media are still largely aligned, especially in broad topics they choose to cover, and that the level of alignment along the credibility dimension is comparable to that along the ideology dimension. Furthermore, we find that the coverage of the Republican candidate is better aligned across different media types than that of the Democratic candidate, and that media divergence has increased along both dimensions from 2016 to 2020. Finally, we demonstrate that high-credibility media still plays a dominant role in the IAS process, yet with a cautious warning of its declining IAS power for the Democratic candidate over the course of four years.",
     "url": "https://doi.org/10.1609/icwsm.v18i1.31312",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/31312/33472",
-    "citations": 1
+    "citations": 3
   },
   {
     "title": "Seeing Like an AI: How LLMs Apply (and Misapply) Wikipedia Neutrality Norms",
@@ -87,7 +127,7 @@
     "abstract": "Large language models (LLMs) are trained on broad corpora and then used in communities with specialized norms and rules. But can LLMs apply community rules well enough to follow these norms? We evaluate LLMs’ capacity to detect (Task 1) and correct (Task 2) biased Wikipedia edits according to Wikipedia’s Neutral Point of View (NPOV) policy. LLMs struggled with bias detection, achieving only 64% accuracy on a balanced dataset. Models exhibited contrasting biases (some under- and others over-predicted bias), suggesting distinct priors about neutrality. LLMs performed better at bias correction, removing 79% of words removed by Wikipedia editors. However, LLMs made additional changes beyond Wikipedia editors’ simpler neutralizations, resulting in high-recall but low-precision editing. Interestingly, crowd-workers rated AI rewrites as more neutral (70%) and fluent- sounding (61%) than Wikipedia-editor rewrites. Qualitative analysis found that LLMs sometimes applied NPOV more comprehensively than Wikipedia editors but often made extraneous non-NPOV-related changes (e.g., grammar). LLMs may apply rules in ways that resonate with the public, but diverge from community experts. While potentially effective for generation, LLMs may reduce editor agency and increase moderation workload (e.g., verifying additions). Even when rules are easy to articulate, having LLMs apply them like community members may still be difficult.",
     "url": "https://doi.org/10.1609/icwsm.v20i1.42630",
     "eprint_url": "https://doi.org/10.1609/icwsm.v20i1.42630",
-    "citations": 15
+    "citations": 16
   },
   {
     "title": "Framing Social Movements on Social Media: Unpacking Diagnostic, Prognostic, and Motivational Strategies",
@@ -97,7 +137,7 @@
     "abstract": "Social media enables activists to directly communicate with the public and provides a space for movement leaders, participants, bystanders, and opponents to collectively construct and contest narratives. Focusing on Twitter messages from social movements surrounding three issues in 2018-2019 (guns, immigration, and LGBTQ rights), we create a codebook, annotated dataset, and computational models to detect diagnostic (problem identification and attribution), prognostic (proposed solutions and tactics), and motivational (calls to action) framing strategies. We conduct an in-depth unsupervised linguistic analysis of each framing strategy, and uncover cross-movement similarities in associations between framing and linguistic features such as pronouns and deontic modal verbs. Finally, we compare framing strategies across issues and other social, cultural, and interactional contexts. For example, we show that diagnostic framing is more common in replies than original broadcast posts, and that social movement organizations focus much more on prognostic and motivational framing than journalists and ordinary citizens.",
     "url": "https://doi.org/10.51685/jqd.2024.icwsm.9",
     "eprint_url": "https://journalqd.org/article/download/5896/4515",
-    "citations": 20
+    "citations": 25
   },
   {
     "title": "Misunderstanding the harms of online misinformation",
@@ -107,7 +147,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1038/s41586-024-07417-w",
     "eprint_url": "",
-    "citations": 112
+    "citations": 118
   },
   {
     "title": "Understanding the rationales and information environments for early, late, and nonadopters of the COVID-19 vaccine",
@@ -127,7 +167,7 @@
     "abstract": "Exposure to large language model output is rapidly increasing. How will seeing AI-generated ideas affect human ideas? We conducted a dynamic experiment (800+ participants, 40+ countries) where participants viewed creative ideas that were from ChatGPT or prior experimental participants, and then brainstormed their own idea. We varied the number of AI-generated examples (none, low, or high exposure) and if the examples were labeled as “AI” (disclosure). We find that high AI exposure (but not low AI exposure) did not affect the creativity of individual ideas but did increase the average amount and rate of change of collective idea diversity. AI made ideas different, not better. There were no main effects of disclosure. We also found that self-reported creative people were less influenced by knowing an idea was from AI and that participants may knowingly adopt AI ideas when the task is difficult. Our findings suggest that introducing AI ideas may increase collective diversity but not individual creativity.",
     "url": "https://doi.org/10.1145/3715928.3737481",
     "eprint_url": "https://doi.org/10.1145/3715928.3737481",
-    "citations": 44
+    "citations": 45
   },
   {
     "title": "The Dynamics of (Not) Unfollowing Misinformation Spreaders",
@@ -147,7 +187,7 @@
     "abstract": "Recent debates raised concerns that language models may favor certain viewpoints. But what if the solution is not to aim for a “view from nowhere” but rather to leverage different viewpoints? We introduce Plurals, a system and Python library for pluralistic AI deliberation. Plurals consists of Agents (LLMs, optionally with personas) which deliberate within customizable Structures, with Moderators overseeing deliberation. Plurals is a generator of simulated social ensembles. Plurals integrates with government datasets to create nationally representative personas, includes deliberation templates inspired by deliberative democracy, and allows users to customize both information-sharing structures and deliberation behavior within Structures. Six case studies demonstrate fidelity to theoretical constructs and efficacy. Three randomized experiments show simulated focus groups produced output resonant with an online sample of the relevant audiences (chosen over zero-shot generation in 75% of trials). Plurals is both a paradigm and a concrete system for pluralistic AI.",
     "url": "https://doi.org/10.1145/3706598.3713675",
     "eprint_url": "https://doi.org/10.1145/3706598.3713675",
-    "citations": 19
+    "citations": 20
   },
   {
     "title": "Social media and adolescent health",
@@ -187,7 +227,7 @@
     "abstract": "Social media enables the rapid spread of many kinds of information, from pop culture memes to social movements. However, little is known about how information crosses linguistic boundaries. We apply causal inference techniques on the European Twitter network to quantify the structural role and communication influence of multilingual users in cross-lingual information exchange. Overall, multilinguals play an essential role; posting in multiple languages increases betweenness centrality by 13%, and having a multilingual network neighbor increases monolinguals’ odds of sharing domains and hashtags from another language 16-fold and 4-fold, respectively. We further show that multilinguals have a greater impact on diffusing information is less accessible to their monolingual compatriots, such as information from far-away countries and content about regional politics, nascent social movements, and job opportunities. By highlighting information exchange across borders, this work sheds light on a crucial component of how information and ideas spread around the world.",
     "url": "https://doi.org/10.48550/arXiv.2304.03797",
     "eprint_url": "http://arxiv.org/pdf/2304.03797",
-    "citations": 3
+    "citations": 4
   },
   {
     "title": "Wisdom of Two Crowds: Misinformation Moderation on Reddit and How to Improve this Process---A Case Study of COVID-19",
@@ -207,7 +247,7 @@
     "abstract": "ABSTRACT In today’s fragmented media environment, it is unclear whether the correspondence between media agendas that characterizes intermedia agenda setting persists. Through a combination of manual and computerized content analysis of 486,068 paragraphs of COVID−19 coverage across 4,589 cable and broadcast news transcripts, we analyze second and third-level attribute agenda setting, both in terms of central themes and aspects. Through the lens of the issue attention cycle, we assess whether relationships among media agendas change over time. The results show that even in a fragmented media environment, there is considerable evidence of intermedia agenda setting. The attribute agendas were largely similar across outlets despite the similarity slightly decreasing over time. The findings suggest that there was only modest evidence for the prominent perception of fragmented coverage for cable and broadcast news networks’ attribute agendas concerning the COVID−19 pandemic.",
     "url": "https://doi.org/10.1080/10584609.2023.2222382",
     "eprint_url": "",
-    "citations": 7
+    "citations": 8
   },
   {
     "title": "Bursts of contemporaneous publication among high- and low-credibility online information providers",
@@ -217,7 +257,7 @@
     "abstract": "In studies of misinformation, the distinction between high- and low-credibility publishers is fundamental. However, there is much that we do not know about the relationship between the subject matter and timing of content produced by the two types of publishers. By analyzing the content of several million unique articles published over 28 months, we show that high- and low-credibility publishers operate in distinct news ecosystems. Bursts of news coverage generated by the two types of publishers tend to cover different subject matter at different times, even though fluctuations in their overall news production tend to be highly correlated. Regardless of the mechanism, temporally convergent coverage among low-credibility publishers has troubling implications for American news consumers.",
     "url": "https://doi.org/10.1177/14614448231183617",
     "eprint_url": "",
-    "citations": 3
+    "citations": 4
   },
   {
     "title": "Indexing theory during an emerging health crisis: how U.S. TV news indexed elite perspectives and amplified COVID-19 misinformation",
@@ -247,7 +287,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1007/s10994-022-06176-x",
     "eprint_url": "https://link.springer.com/content/pdf/10.1007/s10994-022-06176-x.pdf",
-    "citations": 21
+    "citations": 23
   },
   {
     "title": "Modeling Framing in Immigration Discourse on Social Media",
@@ -257,7 +297,7 @@
     "abstract": "The framing of political issues can influence policy and public opinion. Even though the public plays a key role in creating and spreading frames, little is known about how ordinary people on social media frame political issues. By creating a new dataset of immigration-related tweets labeled for multiple framing typologies from political communication theory, we develop supervised models to detect frames. We demonstrate how users’ ideology and region impact framing choices, and how a message’s framing influences audience responses. We find that the more commonly-used issue-generic frames obscure important ideological and regional patterns that are only revealed by immigration-specific frames. Furthermore, frames oriented towards human interests, culture, and politics are associated with higher user engagement. This large-scale analysis of a complex social and linguistic phenomenon contributes to both NLP and social science research.",
     "url": "https://doi.org/10.18653/v1/2021.naacl-main.179",
     "eprint_url": "https://aclanthology.org/2021.naacl-main.179.pdf",
-    "citations": 97
+    "citations": 100
   },
   {
     "title": "COVID-19 Coverage By Cable and Broadcast Networks",
@@ -277,7 +317,7 @@
     "abstract": "Research on online political communication has primarily focused on content in explicitly political spaces. In this work, we set out to determine the amount of political talk missed using this approach. Focusing on Reddit, we estimate that nearly half of all political talk takes place in subreddits that host political content less than 25% of the time. In other words, cumulatively, political talk in non-political spaces is abundant. We further examine the nature of political talk and show that political conversations are less toxic in non-political subreddits. Indeed, the average toxicity of political comments replying to a out-partisan in non-political subreddits is less than even the toxicity of co-partisan replies in explicitly political subreddits.",
     "url": "https://doi.org/10.1609/icwsm.v15i1.18081",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18081/17884",
-    "citations": 43
+    "citations": 44
   },
   {
     "title": "Better Crowdcoding: Strategies for Promoting Accuracy in Crowdsourced Content Analysis",
@@ -376,7 +416,7 @@
     "year": "2020",
     "abstract": "Low-dimensional vector-space representations of academic periodicals reveal insights into their complex relationships. Understanding the structure of knowledge domains is one of the foundational challenges in the science of science. Here, we propose a neural embedding technique that leverages the information contained in the citation network to obtain continuous vector representations of scientific periodicals. We demonstrate that our periodical embeddings encode nuanced relationships between periodicals and the complex disciplinary and interdisciplinary structure of science, allowing us to make cross-disciplinary analogies between periodicals. Furthermore, we show that the embeddings capture meaningful “axes” that encompass knowledge domains, such as an axis from “soft” to “hard” sciences or from “social” to “biological” sciences, which allow us to quantitatively ground periodicals on a given dimension. By offering novel quantification in the science of science, our framework may, in turn, facilitate the study of how knowledge is created and organized.",
     "url": "https://doi.org/10.1126/sciadv.abb9004",
-    "eprint_url": "https://www.science.org/doi/pdf/10.1126/sciadv.abb9004?download=true",
+    "eprint_url": "https://doi.org/10.1126/sciadv.abb9004",
     "citations": 70
   },
   {
@@ -386,7 +426,7 @@
     "year": "2020",
     "abstract": "Larry Lessig argues that four modes regulate behavior in cyberspace: laws, markets, norms, and architecture. How can these four modes regulate the production and spread of fake news? In this paper, we focus on markets and empirically evaluate one particular market-based solution: top ad firms blacklisting fake news producers to eliminate their revenue sources. Our study reveals that fake and low-quality publishers demonstrate a higher tendency to serve more ads and to partner with risky ad servers than traditional news media with similar popularity and age. However, fake news publishers are still strongly reliant on credible ad servers. In fact, the top-10 credible ad servers alone account for 66.7% and 55.6% of fake and low-quality ad traffic respectively. Furthermore, our back-of-the-envelope calculation shows that, at the time of our data collection, the top-10 ad firms were receiving $985.7K to $1.15M monthly from web traffic on fake news sites, a negligible fraction of these firms' annual revenue. Overall, our findings suggest that having top ad firms blacklist known fake and low-quality publishers is a low-cost way to combat fake news.",
     "url": "https://doi.org/10.2139/ssrn.3650585",
-    "eprint_url": "",
+    "eprint_url": "https://doi.org/10.2139/ssrn.3650585",
     "citations": 19
   },
   {
@@ -407,7 +447,7 @@
     "abstract": "This article investigates the prevalence of high and low quality URLs shared on Twitter when users discuss COVID-19. We distinguish between high quality health sources, traditional news sources, and low quality misinformation sources. We find that misinformation, in terms of tweets containing URLs from low quality misinformation websites, is shared at a higher rate than tweets containing URLs on high quality health information websites. However, both are a relatively small proportion of the overall conversation. In contrast, news sources are shared at a much higher rate. These findings lead us to analyze the network created by the URLs referenced on the webpages shared by Twitter users. When looking at the combined network formed by all three of the source types, we find that the high quality health information network, the low quality misinformation network, and the news information network are all well connected with a clear community structure. While high and low quality sites do have connections to each other, the connections to and from news sources are more common, highlighting the central brokerage role news sources play in this information ecosystem. Our findings suggest that while low quality URLs are not extensively shared in the COVID-19 Twitter conversation, a well connected community of low quality COVID-19 related information has emerged on the web, and both health and news sources are connecting to this community.",
     "url": "https://doi.org/10.1007/s42001-020-00093-6",
     "eprint_url": "https://link.springer.com/content/pdf/10.1007/s42001-020-00093-6.pdf",
-    "citations": 64
+    "citations": 65
   },
   {
     "title": "Quick, Community-Specific Learning: How Distinctive Toxicity Norms Are Maintained in Political Subreddits",
@@ -417,7 +457,7 @@
     "abstract": "Online communities about similar topics may maintain very different norms of interaction. Past research identifies many processes that contribute to maintaining stable norms, including self-selection, pre-entry learning, post-entry learning, and retention. We analyzed political subreddits that had distinctive, stable levels of toxic comments on Reddit, in order to identify the relative contribution of these four processes. Surprisingly, we find that the largest source of norm stability is pre-entry learning. That is, newcomers' first comments in these distinctive subreddits differ from those same people's prior behavior in other subreddits. Through this adjustment, they nearly match the toxicity level of the subreddit they are joining. We also show that behavior adjustments are community-specific and not broadly transformative. That is, people continue to post toxic comments at their previous rates in other political subreddits. Thus, we conclude that in political subreddits, compatible newcomers are neither born nor made– they make local adjustments on their own.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7323",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7323/7177",
-    "citations": 96
+    "citations": 98
   },
   {
     "title": "Beyond the eye-catchers: A large-scale study of social movement organizations’ involvement in online protests",
@@ -437,7 +477,7 @@
     "abstract": "Harnessing social media data for social science research entails creating measures out of the largely unstructured, noisy data that users generate on different platforms. This harnessing, particularly of data at scale, requires using methods developed in computer science. But it also typically requires integrating these methods with assessments of measurement quality along social science criteria -- reliability, validity and unbiasedness. In this paper, we outline measurement issues that arise when using social media data. We show examples of how to construct measures and discuss different measurement considerations and best practices. We conclude with a discussion of ways to accelerate research in this space, highlighting contributions that can be made by both social scientists and computer scientists.",
     "url": "https://doi.org/10.31234/osf.io/ga6nc",
     "eprint_url": "https://psyarxiv.com/ga6nc/download",
-    "citations": 6
+    "citations": 7
   },
   {
     "title": "Higher Ground? How Groundtruth Labeling Impacts Our Understanding of Fake News about the 2016 U.S. Presidential Nominees",
@@ -447,7 +487,7 @@
     "abstract": "The spread of fake news on social media platforms has garnered much public attention and apprehension. Consequently, both the tech industry and academia alike are investing increased effort to understand, detect, and curb fake news. Yet, researchers differ in what they consider to be fake news sites. In this paper, we first aggregate 5 lists of fake and 3 of mainstream news sites published by experts and reputable organizations. Then, focusing on tweets about the democratic (Hillary Clinton) and republican (Donald Trump) nominees in the 2016 U.S. presidential election, we use each pair of fake and traditional news lists as an independent “groundtruth” to examine i) the prevalence, ii) temporal characteristics and iii) the agenda-setting differences between fake and traditional news sites. We observe that depending on the groundtruth, the prevalence of fake news varies significantly. However, the temporal trends and agenda-setting differences between fake and mainstream news sites remain moderately consistent across different groundtruth lists.",
     "url": "https://doi.org/10.2139/ssrn.3340173",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7278/7132",
-    "citations": 48
+    "citations": 50
   },
   {
     "title": "From Greetings to Corruption: Politicians, Political Parties, and Tweeting in India",
@@ -477,7 +517,7 @@
     "abstract": "The rising prevalence of fake news and its alarming downstream impact have motivated both the industry and academia to build a substantial number of fake news classification models, each with its unique architecture. Yet, the research community currently lacks a comprehensive model evaluation framework that can provide multifaceted comparisons between these models beyond the simple evaluation metrics such as accuracy or f1 scores. In our work, we examine a representative subset of classifiers using a very simple set of performance evaluation and error analysis steps. We demonstrate that model performance varies considerably based on i) dataset, ii) evaluation archetype, and iii) performance metrics. Additionally, classifiers also demonstrate a potential bias against small and conservative-leaning credible news sites. Finally, models' performance varies based on external events and article topics. In sum, our results highlight the need to move toward systematic benchmarking.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7279",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7279/7133",
-    "citations": 65
+    "citations": 66
   },
   {
     "title": "USApp – American Politics and Policy Blog: Real-time analysis shows that the first debate shifted attitudes among Twitter users towards Biden and the second solidified them",
@@ -497,7 +537,7 @@
     "abstract": "How the 2016 news media environment allowed Trump to win the presidency\n The 2016 presidential election campaign might have seemed to be all about one man. He certainly did everything possible to reinforce that impression. But to an unprecedented degree the campaign also was about the news media and its relationships with the man who won and the woman he defeated.\n Words That Matter assesses how the news media covered the extraordinary 2016 election and, more important, what information true, false, or somewhere in between actually helped voters make up their minds. Using journalists' real-time tweets and published news coverage of campaign events, along with Gallup polling data measuring how voters perceived that reporting, the book traces the flow of information from candidates and their campaigns to journalists and to the public.\n The evidence uncovered shows how Donald Trump's victory, and Hillary Clinton's loss, resulted in large part from how the news media responded to these two unique candidates. Both candidates were unusual in their own ways, and thus presented a long list of possible issues for the media to focus on. Which of these many topics got communicated to voters made a big difference outcome.\n What people heard about these two candidates during the campaign was quite different. Coverage of Trump was scattered among many different issues, and while many of those issues were negative, no single negative narrative came to dominate the coverage of the man who would be elected the 45th president of the United States. Clinton, by contrast, faced an almost unrelenting news media focus on one negative issue her alleged misuse of e-mails that captured public attention in a way that the more numerous questions about Trump did not.\n Some news media coverage of the campaign was insightful and helpful to voters who really wanted serious information to help them make the most important decision a democracy offers. But this book also demonstrates how the modern media environment can exacerbate the kind of pack journalism that leads some issues to dominate the news while others of equal or greater importance get almost no attention, making it hard for voters to make informed choices.",
     "url": "https://doi.org/10.5040/9780815752387",
     "eprint_url": "",
-    "citations": 1
+    "citations": 2
   },
   {
     "title": "A first look at COVID-19 information and misinformation sharing on Twitter",
@@ -507,7 +547,7 @@
     "abstract": "Since December 2019, COVID-19 has been spreading rapidly across the world. Not surprisingly, conversation about COVID-19 is also increasing. This article is a first look at the amount of conversation taking place on social media, specifically Twitter, with respect to COVID-19, the themes of discussion, where the discussion is emerging from, myths shared about the virus, and how much of it is connected to other high and low quality information on the Internet through shared URL links. Our preliminary findings suggest that a meaningful spatio-temporal relationship exists between information flow and new cases of COVID-19, and while discussions about myths and links to poor quality information exist, their presence is less dominant than other crisis specific themes. This research is a first step toward understanding social media conversation about COVID-19.",
     "url": "https://arxiv.org/abs/2003.13907",
     "eprint_url": "",
-    "citations": 316
+    "citations": 317
   },
   {
     "title": "The shape of educational inequality",
@@ -576,7 +616,7 @@
     "year": "2019",
     "abstract": "",
     "url": "https://doi.org/10.2139/ssrn.3419781",
-    "eprint_url": "",
+    "eprint_url": "https://doi.org/10.2139/ssrn.3419781",
     "citations": 2
   },
   {
@@ -607,7 +647,7 @@
     "abstract": "Online social movements (OSMs) play a key role in promoting democracy in modern society. Most online activism is largely driven by critical offline events. Among many studies investigating collective behavior in OSMs, few has explored the interaction between crowd dynamics and their offline context. Here, focusing on the Black Lives Matter OSM and utilizing an event-driven approach on a dataset of 36 million tweets and thousands of offline events, we study how different types of offline events-police violence and heightened protests-influence crowd behavior over time. We find that police violence events and protests play important roles in the recruitment process. Moreover, by analyzing the re-participation dynamics and patterns of social interactions, we find that, in the long term, users who joined the movement during police violence events and protests show significantly more commitment than those who joined during other times. However, users recruited during other times are more committed to the movement than the other two groups in the short term. Furthermore, we observe that social ties formed during police violence events are more likely to be sustained over time than those formed during other times. Contrarily, ties formed during protests are the least likely to be maintained. Altogether, our results shed light on the impact of bursting events on the recruitment, retention, and communication patterns of collective behavior in the Black Lives Matter OSM.",
     "url": "https://doi.org/10.1145/3308558.3313673",
     "eprint_url": "https://doi.org/10.1145/3308558.3313673",
-    "citations": 10
+    "citations": 11
   },
   {
     "title": "Community-Based Trip Sharing for Urban Commuting",
@@ -617,7 +657,7 @@
     "abstract": "\n \n This paper explores Community-Based Trip Sharing which uses the structure of communities and commuting patterns to optimize car or ride sharing for urban communities. It introduces the Commuting Trip Sharing Problem (CTSP) and proposes an optimization approach to maximize trip sharing. The optimization method, which exploits trip clustering, shareability graphs, and mixed-integer programming, is applied to a dataset of 9000 daily commuting trips from a mid-size city. Experimental results show that community-based trip sharing reduces daily car usage by up to 44%, thus producing significant environmental and traffic benefits and reducing parking pressure. The results also indicate that daily flexibility in pairing cars and passengers has significant impact on the benefits of the approach, revealing new insights on commuting patterns and trip sharing.\n \n",
     "url": "https://doi.org/10.1609/aaai.v32i1.12207",
     "eprint_url": "https://doi.org/10.1609/aaai.v32i1.12207",
-    "citations": 26
+    "citations": 27
   },
   {
     "title": "Social Movement Organizations in Online Movements",
@@ -646,7 +686,7 @@
     "year": "2017",
     "abstract": "",
     "url": "https://doi.org/10.1145/3134754",
-    "eprint_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/138122/4/a119-zhang.pdf",
+    "eprint_url": "https://hdl.handle.net/2027.42/138122",
     "citations": 42
   },
   {
@@ -677,7 +717,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1093/POQ/NFW007",
     "eprint_url": "",
-    "citations": 327
+    "citations": 333
   },
   {
     "title": "From Local Popularity to Global Influence: A Computationally Effective Heuristic for Influence Maximization",
@@ -716,8 +756,8 @@
     "year": "2015",
     "abstract": "",
     "url": "https://doi.org/10.2139/SSRN.2610055",
-    "eprint_url": "",
-    "citations": 57
+    "eprint_url": "https://doi.org/10.2139/ssrn.2610055",
+    "citations": 58
   },
   {
     "title": "Big Data in Online Social Networks: User Interaction Analysis to Model User Behavior in Social Networks",
@@ -747,7 +787,7 @@
     "abstract": "",
     "url": "https://www.semanticscholar.org/paper/9d3bd0f9044b5dbe2968525db0dec8450d4fb0c8",
     "eprint_url": "",
-    "citations": 31
+    "citations": 32
   },
   {
     "title": "Do-Not-Track and the Economics of Online Advertising",
@@ -756,7 +796,7 @@
     "year": "2014",
     "abstract": "",
     "url": "https://doi.org/10.2139/SSRN.2505643",
-    "eprint_url": "",
+    "eprint_url": "https://doi.org/10.2139/ssrn.2505643",
     "citations": 1
   },
   {
@@ -857,7 +897,7 @@
     "abstract": "",
     "url": "https://doi.org/10.14778/2021017.2021022",
     "eprint_url": "http://www.vldb.org/pvldb/vol4/p646-budak.pdf",
-    "citations": 106
+    "citations": 105
   },
   {
     "title": "Information diffusion in social networks: observing and affecting what society cares about",
