@@ -10,16 +10,6 @@
     "citations": 0
   },
   {
-    "title": "The Prosocial Ranking Challenge: Reducing Polarization on Social Media without Sacrificing Engagement",
-    "authors": "J. Stray, Ian Baker, George Beknazar-Yuzbashev, Ceren Budak, Julia Kamin, Kylan Rutherford, M. Stalinski, Tin Acosta, Christopher Bail, Michael S. Bernstein, Mark J. Brandt, A. Bruckman, Anshuman Chhabra, Soham De, Kayla Duskin, Sara Fish, Beth Goldberg, A. Guess, Dylan Hadfield-Menell, Muhammed Haroon, Safwan Hossain, Michael Inzlicht, Gauri Jain, Yanchen Jiang, Alexander P. Landry, Y. Lelkes, Hongfang Lu, P. Mason, Jennifer McCoy, S. Milli, Paul Resnick, Emily Saltz, Martin Saveski, Lisa Schirch, Max Spohn, Siddarth Srinivasan, Alexis Tatore, Luke Thorburn, Joshua A. Tucker, Robb Willer, Magdalena Wojcieszak, M. Wuthrich, Sylvan Zheng",
-    "venue": "arXiv.org",
-    "year": "2026",
-    "abstract": "We report the first direct comparisons of multiple alternative social media algorithms on multiple platforms on outcomes of societal interest. We used a browser extension to modify which posts were shown to desktop social media users, randomly assigning 9,386 users to a control group or one of five alternative ranking algorithms which simultaneously altered content across three platforms for six months during the US 2024 presidential election. This reduced our preregistered index of affective polarization by an average of 0.03 standard deviations (p<0.05), including a 1.5 degree decrease in differences between the 100 point inparty and outparty feeling thermometers. We saw reductions in active use time for Facebook (-0.37 min/day) and Reddit (-0.2 min/day), but an increase of 0.32 min/day (p<0.01) for X/Twitter. We saw an increase in reports of negative social media experiences but found no effects on well-being, news knowledge, outgroup empathy, perceptions of and support for partisan violence. This implies that bridging content can improve some societal outcomes without necessarily conflicting with the engagement-driven business model of social media.",
-    "url": "https://doi.org/10.48550/arXiv.2603.19626",
-    "eprint_url": "",
-    "citations": 6
-  },
-  {
     "title": "American Presidential Campaigns in the Attention Economy",
     "authors": "Ceren Budak, J. Ladd, Josh Pasek, Lisa Singh, Michael W. Traugott",
     "venue": "",
@@ -38,6 +28,16 @@
     "url": "https://arxiv.org/abs/2607.19355",
     "eprint_url": "",
     "citations": 1
+  },
+  {
+    "title": "The Prosocial Ranking Challenge: Reducing Polarization on Social Media without Sacrificing Engagement",
+    "authors": "J. Stray, Ian Baker, George Beknazar-Yuzbashev, Ceren Budak, Julia Kamin, Kylan Rutherford, M. Stalinski, Tin Acosta, Christopher Bail, Michael S. Bernstein, Mark J. Brandt, A. Bruckman, Anshuman Chhabra, Soham De, Kayla Duskin, Sara Fish, Beth Goldberg, A. Guess, Dylan Hadfield-Menell, Muhammed Haroon, Safwan Hossain, Michael Inzlicht, Gauri Jain, Yanchen Jiang, Alexander P. Landry, Y. Lelkes, Hongfang Lu, P. Mason, Jennifer McCoy, S. Milli, Paul Resnick, Emily Saltz, Martin Saveski, Lisa Schirch, Max Spohn, Siddarth Srinivasan, Alexis Tatore, Luke Thorburn, Joshua A. Tucker, Robb Willer, Magdalena Wojcieszak, M. Wuthrich, Sylvan Zheng",
+    "venue": "arXiv.org",
+    "year": "2026",
+    "abstract": "We report the first direct comparisons of multiple alternative social media algorithms on multiple platforms on outcomes of societal interest. We used a browser extension to modify which posts were shown to desktop social media users, randomly assigning 9,386 users to a control group or one of five alternative ranking algorithms which simultaneously altered content across three platforms for six months during the US 2024 presidential election. This reduced our preregistered index of affective polarization by an average of 0.03 standard deviations (p<0.05), including a 1.5 degree decrease in differences between the 100 point inparty and outparty feeling thermometers. We saw reductions in active use time for Facebook (-0.37 min/day) and Reddit (-0.2 min/day), but an increase of 0.32 min/day (p<0.01) for X/Twitter. We saw an increase in reports of negative social media experiences but found no effects on well-being, news knowledge, outgroup empathy, perceptions of and support for partisan violence. This implies that bridging content can improve some societal outcomes without necessarily conflicting with the engagement-driven business model of social media.",
+    "url": "https://doi.org/10.48550/arXiv.2603.19626",
+    "eprint_url": "",
+    "citations": 7
   },
   {
     "title": "Outsourcing an Information Operation: A Complete Dataset of Tenet Media's Podcasts on Rumble",
@@ -147,7 +147,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1038/s41586-024-07417-w",
     "eprint_url": "",
-    "citations": 118
+    "citations": 121
   },
   {
     "title": "Understanding the rationales and information environments for early, late, and nonadopters of the COVID-19 vaccine",
@@ -167,7 +167,7 @@
     "abstract": "Exposure to large language model output is rapidly increasing. How will seeing AI-generated ideas affect human ideas? We conducted a dynamic experiment (800+ participants, 40+ countries) where participants viewed creative ideas that were from ChatGPT or prior experimental participants, and then brainstormed their own idea. We varied the number of AI-generated examples (none, low, or high exposure) and if the examples were labeled as “AI” (disclosure). We find that high AI exposure (but not low AI exposure) did not affect the creativity of individual ideas but did increase the average amount and rate of change of collective idea diversity. AI made ideas different, not better. There were no main effects of disclosure. We also found that self-reported creative people were less influenced by knowing an idea was from AI and that participants may knowingly adopt AI ideas when the task is difficult. Our findings suggest that introducing AI ideas may increase collective diversity but not individual creativity.",
     "url": "https://doi.org/10.1145/3715928.3737481",
     "eprint_url": "https://doi.org/10.1145/3715928.3737481",
-    "citations": 45
+    "citations": 46
   },
   {
     "title": "The Dynamics of (Not) Unfollowing Misinformation Spreaders",
@@ -187,7 +187,7 @@
     "abstract": "Recent debates raised concerns that language models may favor certain viewpoints. But what if the solution is not to aim for a “view from nowhere” but rather to leverage different viewpoints? We introduce Plurals, a system and Python library for pluralistic AI deliberation. Plurals consists of Agents (LLMs, optionally with personas) which deliberate within customizable Structures, with Moderators overseeing deliberation. Plurals is a generator of simulated social ensembles. Plurals integrates with government datasets to create nationally representative personas, includes deliberation templates inspired by deliberative democracy, and allows users to customize both information-sharing structures and deliberation behavior within Structures. Six case studies demonstrate fidelity to theoretical constructs and efficacy. Three randomized experiments show simulated focus groups produced output resonant with an online sample of the relevant audiences (chosen over zero-shot generation in 75% of trials). Plurals is both a paradigm and a concrete system for pluralistic AI.",
     "url": "https://doi.org/10.1145/3706598.3713675",
     "eprint_url": "https://doi.org/10.1145/3706598.3713675",
-    "citations": 20
+    "citations": 22
   },
   {
     "title": "Social media and adolescent health",
@@ -247,7 +247,7 @@
     "abstract": "ABSTRACT In today’s fragmented media environment, it is unclear whether the correspondence between media agendas that characterizes intermedia agenda setting persists. Through a combination of manual and computerized content analysis of 486,068 paragraphs of COVID−19 coverage across 4,589 cable and broadcast news transcripts, we analyze second and third-level attribute agenda setting, both in terms of central themes and aspects. Through the lens of the issue attention cycle, we assess whether relationships among media agendas change over time. The results show that even in a fragmented media environment, there is considerable evidence of intermedia agenda setting. The attribute agendas were largely similar across outlets despite the similarity slightly decreasing over time. The findings suggest that there was only modest evidence for the prominent perception of fragmented coverage for cable and broadcast news networks’ attribute agendas concerning the COVID−19 pandemic.",
     "url": "https://doi.org/10.1080/10584609.2023.2222382",
     "eprint_url": "",
-    "citations": 8
+    "citations": 9
   },
   {
     "title": "Bursts of contemporaneous publication among high- and low-credibility online information providers",
@@ -317,7 +317,7 @@
     "abstract": "Research on online political communication has primarily focused on content in explicitly political spaces. In this work, we set out to determine the amount of political talk missed using this approach. Focusing on Reddit, we estimate that nearly half of all political talk takes place in subreddits that host political content less than 25% of the time. In other words, cumulatively, political talk in non-political spaces is abundant. We further examine the nature of political talk and show that political conversations are less toxic in non-political subreddits. Indeed, the average toxicity of political comments replying to a out-partisan in non-political subreddits is less than even the toxicity of co-partisan replies in explicitly political subreddits.",
     "url": "https://doi.org/10.1609/icwsm.v15i1.18081",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/18081/17884",
-    "citations": 44
+    "citations": 45
   },
   {
     "title": "Better Crowdcoding: Strategies for Promoting Accuracy in Crowdsourced Content Analysis",
@@ -396,7 +396,7 @@
     "year": "2021",
     "abstract": "In this work, we evaluate different instruction strategies to improve the quality of crowdcoding for the concept of civility. We test the effectiveness of training, codebooks, and their combination through 2x2 experiments conducted on two different populations—students and Amazon Mechanical Turk workers. In addition, we perform simulations to evaluate the trade-off between cost and performance associated with different instructional strategies and the number of human coders. We find that training improves crowdcoding quality, while codebooks do not. We further show that relying on several human coders and applying majority rule to their assessments significantly improves performance.",
     "url": "https://doi.org/10.2139/ssrn.3764871",
-    "eprint_url": "",
+    "eprint_url": "https://doi.org/10.2139/ssrn.3764871",
     "citations": 0
   },
   {
@@ -457,7 +457,7 @@
     "abstract": "Online communities about similar topics may maintain very different norms of interaction. Past research identifies many processes that contribute to maintaining stable norms, including self-selection, pre-entry learning, post-entry learning, and retention. We analyzed political subreddits that had distinctive, stable levels of toxic comments on Reddit, in order to identify the relative contribution of these four processes. Surprisingly, we find that the largest source of norm stability is pre-entry learning. That is, newcomers' first comments in these distinctive subreddits differ from those same people's prior behavior in other subreddits. Through this adjustment, they nearly match the toxicity level of the subreddit they are joining. We also show that behavior adjustments are community-specific and not broadly transformative. That is, people continue to post toxic comments at their previous rates in other political subreddits. Thus, we conclude that in political subreddits, compatible newcomers are neither born nor made– they make local adjustments on their own.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7323",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7323/7177",
-    "citations": 98
+    "citations": 101
   },
   {
     "title": "Beyond the eye-catchers: A large-scale study of social movement organizations’ involvement in online protests",
@@ -517,7 +517,7 @@
     "abstract": "The rising prevalence of fake news and its alarming downstream impact have motivated both the industry and academia to build a substantial number of fake news classification models, each with its unique architecture. Yet, the research community currently lacks a comprehensive model evaluation framework that can provide multifaceted comparisons between these models beyond the simple evaluation metrics such as accuracy or f1 scores. In our work, we examine a representative subset of classifiers using a very simple set of performance evaluation and error analysis steps. We demonstrate that model performance varies considerably based on i) dataset, ii) evaluation archetype, and iii) performance metrics. Additionally, classifiers also demonstrate a potential bias against small and conservative-leaning credible news sites. Finally, models' performance varies based on external events and article topics. In sum, our results highlight the need to move toward systematic benchmarking.",
     "url": "https://doi.org/10.1609/icwsm.v14i1.7279",
     "eprint_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/7279/7133",
-    "citations": 66
+    "citations": 67
   },
   {
     "title": "USApp – American Politics and Policy Blog: Real-time analysis shows that the first debate shifted attitudes among Twitter users towards Biden and the second solidified them",
@@ -547,7 +547,7 @@
     "abstract": "Since December 2019, COVID-19 has been spreading rapidly across the world. Not surprisingly, conversation about COVID-19 is also increasing. This article is a first look at the amount of conversation taking place on social media, specifically Twitter, with respect to COVID-19, the themes of discussion, where the discussion is emerging from, myths shared about the virus, and how much of it is connected to other high and low quality information on the Internet through shared URL links. Our preliminary findings suggest that a meaningful spatio-temporal relationship exists between information flow and new cases of COVID-19, and while discussions about myths and links to poor quality information exist, their presence is less dominant than other crisis specific themes. This research is a first step toward understanding social media conversation about COVID-19.",
     "url": "https://arxiv.org/abs/2003.13907",
     "eprint_url": "",
-    "citations": 317
+    "citations": 318
   },
   {
     "title": "The shape of educational inequality",
@@ -701,7 +701,7 @@
   },
   {
     "title": "Threading is Sticky",
-    "authors": "Ceren Budak, R. K. Garrett, P. Resnick, J. Kamin",
+    "authors": "Ceren Budak, R. Kelly Garrett, P. Resnick, J. Kamin",
     "venue": "Proc. ACM Hum. Comput. Interact.",
     "year": "2017",
     "abstract": "",
@@ -887,7 +887,7 @@
     "abstract": "",
     "url": "https://doi.org/10.1145/1963405.1963499",
     "eprint_url": "",
-    "citations": 895
+    "citations": 899
   },
   {
     "title": "Structural Trend Analysis for Online Social Networks",
